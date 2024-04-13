@@ -1,0 +1,15 @@
+.container{
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+      align-items: center;
+}
+
+header{
+      padding-top: 18px;
+}
+.nav{
+      gap: 48px;
+      display: flex;
+      flex-direction: row;
+}
