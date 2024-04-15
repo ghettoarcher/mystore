@@ -1,0 +1,20 @@
+
+.section-title{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-start;
+}
+
+.title{
+      color: #0C0C0C; 
+      font-size: 32px; 
+      font-weight: 500; 
+}
+
+.horizontal-line{
+      margin-top: 16px;
+      margin: 16px auto;
+      height: 0px;
+      border: 1px #B4B4B4 solid;
+}

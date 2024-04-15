@@ -1,0 +1,97 @@
+.sale-wrapper{
+      background-color:#073a88;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+
+}
+.sale-items{
+      margin-right: 20px;
+}
+.sale-title{
+      color: white;
+       font-size: 24px;
+        font-weight: 500;
+}
+.sale-subtitle{
+      color: white; 
+      font-size: 20px; 
+      font-weight: 300; 
+      line-height: 28px; 
+      padding-left: 40px;
+      padding-top: 8px;
+}
+
+.sale-items-wrapper{
+      display: flex;
+      flex-direction: row;
+      gap: 24px;
+      padding-top: 44px;
+      padding-bottom: 44px;
+}
+
+.sale-text{
+      color: white;
+      display: flex;
+      flex-direction: column  ;
+      padding-top: 62px;
+      padding-left: 32px;
+}
+
+.sale-button{
+      margin-top: 84px;
+      text-align: center;
+}
+
+.sale-item{
+      background-color: white;
+      padding: 12px 8px;
+      position:relative;
+      border-radius: 8px;
+}
+
+.sale-item-name{
+      width: 168px; 
+      height: 30px; 
+      color: #0C0C0C; 
+      font-size: 15px; 
+      font-weight: 300;
+}
+
+.sale-item-price{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: end;
+      padding-top: 15px;
+}
+
+.sale-item-price-old{
+      color: #717171;
+       font-size: 15px; 
+        font-weight: 400; 
+        text-decoration: line-through;
+}
+
+.sale-item-price-new{
+      color: #0C0C0C; 
+      font-size: 16px; 
+      font-family: Inter; 
+      font-weight: 300;
+}
+
+.sale-item-discount{
+      padding-left: 3px;
+      width: 35px;
+      background: #FDDBC9; 
+      border-radius: 8px;
+      border-top-left-radius: 0px; 
+      border-bottom-left-radius: 0px;
+      overflow: hidden;
+      color: #F45E0C; 
+      font-size: 14px; 
+      font-weight: 300; 
+      position: absolute;
+      top: 10px;
+      left: 2px;
+}

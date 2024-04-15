@@ -1,0 +1,33 @@
+.categories-wrapper{
+      display: flex;
+      flex-direction: row;
+      gap: 24px;
+      padding-top: 48px;
+      padding-bottom: 48px;
+
+}
+
+.categories-item{
+      background: white;
+      box-shadow: -2px 2px 15px -1px rgba(113, 113, 113, 0.12);
+       border-radius: 8px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+}
+
+.categories-item-img img{
+      padding: 8px 18px;
+
+}
+
+.categories-item-name{
+      padding-bottom: 8px;
+      text-align: center; 
+      color: #2D2D2D; 
+      font-size: 16px; 
+      font-family: Inter; 
+      font-weight: 300;
+      line-height: 24px;
+}

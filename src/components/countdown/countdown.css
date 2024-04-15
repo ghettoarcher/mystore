@@ -1,0 +1,22 @@
+.countdown{
+      display: flex;
+      flex-direction: row;
+
+}
+.countdown-block{
+      display: flex;
+      flex-direction: column;
+      width: 49px; 
+      height: 46px; 
+     padding: 4px 8px;
+     border-radius: 8px; 
+     border: 1px #0C0C0C solid; 
+     justify-content: flex-start; 
+     align-items: center; 
+     gap: 2px; 
+      align-self: stretch; 
+      text-align: center; 
+      color: #0C0C0C;
+       font-size: 16px; 
+       font-weight: 500; 
+}

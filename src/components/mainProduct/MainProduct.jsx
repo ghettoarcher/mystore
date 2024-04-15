@@ -1,4 +1,7 @@
+
+
 export default function MainProduct (){
+
       return(
             <div className="mainProduct">
                   <div className="container">
