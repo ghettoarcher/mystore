@@ -1,0 +1,118 @@
+.hotdeals{
+      margin-bottom: 48px;
+}
+.hotdeals-content{
+      display: flex;
+      flex-direction: row;
+      column-gap:24px;
+}
+.presale-info{
+      padding-right: 66px;
+}
+.presale-img img{
+      width: 80%;
+}
+
+.presale-title-wrapper{
+      display: flex;
+      flex-direction: column;
+      padding: 24px;
+}
+.presale-title{
+     text-align: center;
+       font-size: 24px;
+      color: white;  
+      font-weight: 500; 
+}
+.presale-title span{
+      color: #0C0C0C;    
+}
+.presale-subtitle{
+     text-align: center; 
+     color: #0C0C0C;
+      font-size: 20px;
+       font-weight: 500; 
+       margin-top: 20px;
+}
+
+.presale-description{
+      max-width: 248px;
+      max-height: 120px; 
+      color: #2D2D2D;
+      font-size: 16px;
+      font-weight: 300; 
+      line-height: 24px;
+
+}
+.button{
+      margin: 0 auto;
+      width: 120px; 
+      height: 35px; 
+      padding: 8px 16px 8px 16px;
+      background: #0C68F4;
+      border-radius: 8px; 
+      text-align: center; 
+      color: white; 
+      font-size: 16px; 
+      font-weight: 400; 
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+}
+
+
+.presale{
+      background: linear-gradient(287deg, #B0E9C9 0%, #1FB6CF 48%, #1975B9 100%);
+      border-radius: 8px;
+      display: flex;
+      flex-direction:row;
+      
+}
+
+.buynow{
+      background-color: #015690;
+      border-radius: 8px;
+      max-width: 444px;
+      position: relative;
+}
+.buynow-title{
+      color: white;
+      margin-left: 135px;
+      padding-right: 135px;
+      margin-top: 32px;
+      padding-bottom: 50px;
+
+}
+.buy-now-img{
+      right: 0;
+      margin-right: 20px;
+      float: right;
+}
+.buynow-button{
+      position: absolute;
+      bottom: 30px;
+      left: 50px;
+      
+}
+.ellipse{
+  position: absolute;
+  overflow: hidden;
+  bottom: 20px;
+  z-index: 2;
+}
+
+.buynow-text{
+      position:absolute;
+      left: 40px;
+      bottom: 120px;
+      color: white;
+}
+
+/*
+
+
+
+
+
+*/

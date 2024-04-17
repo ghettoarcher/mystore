@@ -7,9 +7,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 @import url('./components/title/title.css');
 @import url('./components/countdown/countdown.css');
-
-
-
+@import url('./components/hotdeals/hotdeals.css');
+@import url('./components/bestsellers/bestsellers.css');
+@import url('./components/topbrands/topbrands.css');
+@import url('./components/advertisement/advertisement.css');
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -17,12 +18,12 @@
 }
 
 .container{
-  max-width: 1180px;
+  max-width: 1248px;
+  padding: 0 24px;
   margin: 0 auto;
 }
 body {
   margin: 0;
   box-sizing: border-box;
-  overflow-x: hidden;
 }
 

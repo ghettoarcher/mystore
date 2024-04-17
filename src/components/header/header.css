@@ -1,7 +1,7 @@
-.container{
+.header-nav{
       display: flex;
-      justify-content: space-between;
       flex-direction: row;
+      justify-content: space-between;
       align-items: center;
 }
 
@@ -9,7 +9,7 @@ header{
       padding-top: 18px;
 }
 .nav{
-      gap: 48px;
+      column-gap: 48px;
       display: flex;
       flex-direction: row;
 }

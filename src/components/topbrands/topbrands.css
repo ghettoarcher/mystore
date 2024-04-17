@@ -1,0 +1,11 @@
+.top-brands-content{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 32px;
+      margin-bottom: 48px;
+}
+.top-brands-item{
+      width: auto;
+}

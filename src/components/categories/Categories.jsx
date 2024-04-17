@@ -3,6 +3,7 @@ import React from 'react';
 const ProductList = ({ data }) => {
   return (
     <div >
+      <div className="container">
       <div className='categories-wrapper'>
         {data.map(item => (
           <div className='categories-item' key={item.id}>
@@ -12,6 +13,8 @@ const ProductList = ({ data }) => {
         ))}
         
       </div>
+      </div>
+
     </div>
   );
 };

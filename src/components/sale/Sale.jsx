@@ -38,7 +38,9 @@ export default function Sale(){
       ]
 
       return(
-            <div className="sale-wrapper" >
+            <div className="sale">
+                  <div className="container">
+                  <div className="sale-wrapper" >
                   <div className="sale-text">
                         <div className="sale-title">Products On Sale</div>
                         <div className="sale-subtitle">Shop Now!</div>
@@ -52,6 +54,9 @@ export default function Sale(){
                         <div className="arrow-right"><img src="/src/icon/arrow-circle-right.png" alt="" /></div>
                   </div>
             </div>
+                  </div>
+            </div>
+            
 
       )
 }

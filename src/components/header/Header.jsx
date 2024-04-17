@@ -2,6 +2,7 @@ export default function Header(){
       return(
       <header>
             <div className="container">
+                  <div className="header-nav">
                   <div className="logo"><img src="/src/img/logo.png" alt=""/></div>
                   <div className="nav">
                         <div>Home</div>
@@ -16,6 +17,8 @@ export default function Header(){
                         <a href="#"><img src="/src/img/profile.png" alt="" /></a>
 
                   </div>
+                  </div>
+
             </div>
     </header>
       )

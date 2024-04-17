@@ -3,8 +3,10 @@ import MainProduct from './components/mainProduct/MainProduct';
 import CategoriesList from './components/categories/Categories';
 import Sale from './components/sale/Sale';
 import NewProducts from './components/newProducts/NewProducts';
-
-
+import HotDeals from './components/hotdeals/HotDeals';
+import Bestsellers from './components/bestsellers/BestSellers';
+import TopBrands from './components/topbrands/TopBrands';
+import Advertisement from './components/advertisement/Advertisement';
 
 function App() {
   const categoriesItemsList = [
@@ -23,6 +25,10 @@ function App() {
     <CategoriesList data={categoriesItemsList}/>
     <Sale/>
     <NewProducts/>
+    <HotDeals/>
+    <Bestsellers/>
+    <TopBrands/>
+    <Advertisement/>
     </>
   )
 }
