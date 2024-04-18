@@ -1,0 +1,26 @@
+.services{
+      padding-top: 34px;
+      padding-bottom: 30px;
+}
+
+.services-content{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+}
+
+
+.services-item{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      column-gap: 16px;
+}
+
+.services-text{
+      padding-bottom: 7px;
+      font-size: 20px;
+      font-weight: 300;
+      line-height: 1.4;
+      color: #0c0c0c;
+}

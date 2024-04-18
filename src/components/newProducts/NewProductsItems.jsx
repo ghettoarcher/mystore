@@ -4,7 +4,7 @@ export default function NewProductsItems({data}){
             <div className="newproducts-items">
                   {data.map(item => {
                         return(
-                              <div className="newproducts-item">
+                              <div className="newproducts-item" key = {item.id}>
                               <div className="newproducts-item-img"><img src={item.img} alt="" /></div>
                               <div className="horizontal"></div>
                               <div className="newproducts-item-name">{item.name}</div>

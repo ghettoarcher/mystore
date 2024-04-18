@@ -7,6 +7,10 @@ import HotDeals from './components/hotdeals/HotDeals';
 import Bestsellers from './components/bestsellers/BestSellers';
 import TopBrands from './components/topbrands/TopBrands';
 import Advertisement from './components/advertisement/Advertisement';
+import Blogs from './components/blogs/Blogs';
+import Services from './components/services/Services';
+import Footer from './components/footer/Footer';
+
 
 function App() {
   const categoriesItemsList = [
@@ -29,6 +33,9 @@ function App() {
     <Bestsellers/>
     <TopBrands/>
     <Advertisement/>
+    <Blogs/>
+    <Services/> 
+    <Footer/>
     </>
   )
 }

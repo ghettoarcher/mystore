@@ -11,6 +11,10 @@
 @import url('./components/bestsellers/bestsellers.css');
 @import url('./components/topbrands/topbrands.css');
 @import url('./components/advertisement/advertisement.css');
+@import url('./components/blogs/blogs.css');
+@import url('./components/services/services.css');
+@import url('./components/footer/footer.css');
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;

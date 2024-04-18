@@ -7,6 +7,7 @@
 }
 .sale-items{
       margin-right: 20px;
+      
 }
 .sale-title{
       color: white;
@@ -48,6 +49,8 @@
       padding: 12px 8px;
       position:relative;
       border-radius: 8px;
+      width: 184px;
+      height: 228px;
 }
 
 .sale-item-name{

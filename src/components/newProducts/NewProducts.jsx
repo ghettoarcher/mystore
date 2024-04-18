@@ -4,25 +4,29 @@ export default function NewProducts(){
 
       const newproductsData = [
       {
-          img: '/src/img/sale/watch.png',
+        id:1,
+          img: '/src/img/newproduct/macbook.png',
           name:'Iphone 14 promax 256GB',
           price:'$930.00',
           rating:'4.9',  
       },
-      {
-            img: '/src/img/sale/watch.png',
+      { 
+            id:2,
+            img: '/src/img/newproduct/macbook.png',
             name:'Iphone 14 promax 256GB',
             price:'$930.00',
             rating:'4.9',  
         },
         {
-            img: '/src/img/sale/watch.png',
+            id:3,
+            img: '/src/img/newproduct/macbook.png',
             name:'Iphone 14 promax 256GB',
             price:'$930.00',
             rating:'4.9',  
         },
         {
-            img: '/src/img/sale/watch.png',
+            id:4,
+            img: '/src/img/newproduct/macbook.png',
             name:'Iphone 14 promax 256GB',
             price:'$930.00',
             rating:'4.9',  

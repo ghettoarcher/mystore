@@ -4,29 +4,33 @@ import NewProductsItems from '/src/components/newProducts/NewProductsItems';
 export default function Bestsellers(){
       const bestsellersData = [
             {
-                img: '/src/img/sale/watch.png',
-                name:'Iphone 14 promax 256GB',
-                price:'$930.00',
-                rating:'4.9',  
-            },
-            {
-                  img: '/src/img/sale/watch.png',
-                  name:'Iphone 14 promax 256GB',
-                  price:'$930.00',
-                  rating:'4.9',  
-              },
-              {
-                  img: '/src/img/sale/watch.png',
-                  name:'Iphone 14 promax 256GB',
-                  price:'$930.00',
-                  rating:'4.9',  
-              },
-              {
-                  img: '/src/img/sale/watch.png',
-                  name:'Iphone 14 promax 256GB',
-                  price:'$930.00',
-                  rating:'4.9',  
-              },
+                  id:1,
+                    img: '/src/img/newproduct/macbook.png',
+                    name:'Iphone 14 promax 256GB',
+                    price:'$930.00',
+                    rating:'4.9',  
+                },
+                { 
+                      id:2,
+                      img: '/src/img/newproduct/macbook.png',
+                      name:'Iphone 14 promax 256GB',
+                      price:'$930.00',
+                      rating:'4.9',  
+                  },
+                  {
+                      id:3,
+                      img: '/src/img/newproduct/macbook.png',
+                      name:'Iphone 14 promax 256GB',
+                      price:'$930.00',
+                      rating:'4.9',  
+                  },
+                  {
+                      id:4,
+                      img: '/src/img/newproduct/macbook.png',
+                      name:'Iphone 14 promax 256GB',
+                      price:'$930.00',
+                      rating:'4.9',  
+                  },
             ]
 
       return(

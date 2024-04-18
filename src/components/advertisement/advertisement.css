@@ -1,10 +1,8 @@
-.advertisement{
-      background-color: #223949;
-}
-
 .advertisement-content{
+      border-radius: 10px;
+      background-color: #223949;
       padding-bottom: 41px;
-      margin-right: 280px;
+      padding-right: 280px;
       text-align: center;
       display: flex;
       flex-direction: row;
@@ -14,6 +12,7 @@
 .advertisement-info{
       margin-top:128px;
       margin-left: 64px;
+      position: relative;
       
 }
 .advertisement-img{
@@ -34,6 +33,7 @@
 }
 
 .advertisement-button{
+      margin-top: 32px;
       width: 68px; 
       height: 35px;
       padding-left: 16px; 

@@ -35,6 +35,7 @@ export default function Sale(){
                   id:4,
             },
 
+
       ]
 
       return(
