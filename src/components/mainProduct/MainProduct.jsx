@@ -9,7 +9,7 @@ export default function MainProduct (){
                               <div className="main-title__wrapper">
                                     <h1 className="main__header">Tech Heim</h1>
                                     <h3 className="main__subtitle">"Join the <span>digital revolution</span></h3>
-                                    <button className="main__button">Explore more</button>
+                                    <div className="main__button"><a href="">Explore more</a></div>
                               </div>
                         <img className="main-img" src="/src/img/main-img.png" alt="" />
                         </div>

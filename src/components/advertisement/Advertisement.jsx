@@ -6,7 +6,7 @@ export default function Advertisement(){
                               <div className="advertisement-info">
                                     <div className="advertisement-title">SMART WATCH</div>
                                     <div className="advertisement-subtitle">Various designs and brands</div>
-                                    <div className="advertisement-button">View</div>
+                                    <div className="advertisement-button"><a href="">View</a></div>
                               </div>
                               <div className="advertisement-img"><img src="/src/img/advertisement/smartwatches.png" alt="" /></div>
                         </div>

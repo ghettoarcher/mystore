@@ -37,11 +37,15 @@
       border-radius: 8px;
       width: 240px;
       height: 156px;
+      border-top-right-radius: 0px;
+      border-bottom-right-radius: 0px;
 
 }
 .blog-item-img.main{
       width: 392px;
       height: 336px;
+      border-bottom-left-radius: 0px;
+      border-bottom-right-radius: 0px;
 }
 
 .blog-item-date-text{
@@ -49,10 +53,7 @@
       font-size: 12px;
       font-weight: 300;
 }
-.blog-item-date-text{
-      font-size: 16px;
-      font-weight: 500;
-}
+
 .blog-item-descr{
       height: 34px;
       font-size: 14px;
@@ -69,9 +70,6 @@
       align-items: center;
 }
 
-.blog-img{
-
-}
 
 /*main-blog*/
 .date{
@@ -113,9 +111,13 @@
 .main-blog-title{
       margin-top: 8px;
 }
+.main-blog-text{
+      padding-bottom: 16px;
+}
 
 .main-blog-subtitle{
       margin-top: 8px;
+      font-weight: 300;
 }
 
 

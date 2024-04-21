@@ -3,7 +3,7 @@ export default function Title({name}){
             <>
             <div className="section-title">
                   <div className="title">{name}</div>
-                  <div className="title-button">View all</div>
+                  <div className="title-button"><a href="">View all</a></div>
             </div>
             <div className="horizontal-line"></div>
             </>

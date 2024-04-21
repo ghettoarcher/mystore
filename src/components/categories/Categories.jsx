@@ -7,8 +7,8 @@ const ProductList = ({ data }) => {
       <div className='categories-wrapper'>
         {data.map(item => (
           <div className='categories-item' key={item.id}>
-            <div className="categories-item-img"><img src={item.img} alt="" /></div>
-            <div className="categories-item-name">{item.name}</div>
+            <div className="categories-item-img"><a href=""><img src={item.img} alt="" /></a> </div>
+            <div className="categories-item-name"><a href="">{item.name}</a></div>
           </div>
         ))}
         

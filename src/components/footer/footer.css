@@ -1,9 +1,9 @@
 .footer{
       background-color: #021736;
-      height: 293px;
 }     
 
 .footer-content{
+      position: relative;
       margin-top: 12px;
       padding-top: 36px;
       display: flex;
@@ -23,10 +23,18 @@
       font-weight: 300;
       line-height: 1.5;
       color: #cbcbcb;
+      
+}
+.footer-column-item a{
+      text-decoration: none;
+      color: #cbcbcb;
+}
+.footer-column-icon{
+      margin-right: 4px;
 }
 
+.footer-column-item.semi-bold a{
 
-.footer-column-item.semi-bold{
       font-weight: 500;
       color: #fff;
 }
@@ -41,4 +49,101 @@
 .socials{
       width: 32px;
       height: 32px;
+}
+
+.footer-column-input{
+      width: 288px;
+      height: 48px;
+      border-radius: 8px;
+      border: solid 1px #f9f9f9;
+      display: flex;
+      flex-direction: row;
+      column-gap: 8px;
+      align-items: center;
+      padding-left: 10px;
+}
+
+.footer-column-input img{
+      width: 24px;
+      height: 24px;
+}
+.footer-column-input::placeholder{
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 1.5;
+      color: #f9f9f9;
+}
+
+
+.footer-column-input input{
+
+      margin-left: 8px;
+      background: transparent;
+      border: none;
+      height: 47px;
+      width: 200px;
+      color: #f9f9f9;
+}
+
+.footer-column-input input:focus{
+      outline: none;
+}
+
+.online-chat{
+      width: 40px;
+      height: 40px;
+}
+
+.arrowToTop{
+      width: 40px;
+      height: 40px;
+      margin-top:110px;
+}
+.footer-icons{
+      display:flex;
+      flex-direction: column;
+      justify-content: space-between;
+}
+
+.paymethods{
+      display: flex;
+      flex-direction: row;
+      column-gap: 4px;
+}
+
+
+.copyright{
+      padding-top: 16px;
+      padding-bottom: 16px;
+      color: #fff;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+}
+
+.copyright-content{
+
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      column-gap: 48px;
+}
+
+.copyright-item a{
+      font-size: 12px;
+      font-weight: 500;
+      color: #cbcbcb;
+      text-decoration: none;
+}
+
+.copyright-icon{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      column-gap:9px;
+      font-size: 12px;
+      font-weight: 500;
+      color: #cbcbcb;
 }

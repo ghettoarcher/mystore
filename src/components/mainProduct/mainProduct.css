@@ -28,15 +28,20 @@
       color: #F45E0C; 
 }
 .main__button{
+      text-align: center;
+      display: block;
       width: 288px; 
-      height: 56px; padding-left: 16px;
-      padding-right: 16px; padding-top: 8px;
-      padding-bottom: 8px;
+      height: 56px; 
       background: #F45E0C; 
       border-radius: 8px;
       border: none;
+      display: flex;
       justify-content: center;
       align-items: center; 
       row-gap: 8px; 
+
+}
+.main__button a{
+      text-decoration: none;
       color: white;
 }

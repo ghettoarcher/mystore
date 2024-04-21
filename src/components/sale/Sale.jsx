@@ -43,9 +43,9 @@ export default function Sale(){
                   <div className="container">
                   <div className="sale-wrapper" >
                   <div className="sale-text">
-                        <div className="sale-title">Products On Sale</div>
-                        <div className="sale-subtitle">Shop Now!</div>
-                        <div className="sale-button">View all</div>
+                        <div className="sale-title"><a href="">Products On Sale</a></div>
+                        <div className="sale-subtitle"><a href="">Shop Now!</a></div>
+                        <div className="sale-button"><a href="">View all</a></div>
                   </div>
                   <div className="sale-items">
                         <SaleItems data = {saleData}/>

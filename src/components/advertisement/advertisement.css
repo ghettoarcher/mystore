@@ -32,7 +32,8 @@
       font-weight: 300; 
 }
 
-.advertisement-button{
+.advertisement-button a{
+      text-decoration: none;
       margin-top: 32px;
       width: 68px; 
       height: 35px;

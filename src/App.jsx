@@ -19,7 +19,7 @@ function App() {
     {name: 'Laptops',img:'src/img/categories/laptop.png', id: 3},  
     {name: 'Smartphones',img:'src/img/categories/smartphone.png', id: 4}, 
     {name: 'Gaming',img:'src/img/categories/gaming.png', id: 5}, 
-    {name: 'Smartwatches',img:'src/img/categories/gaming.png', id: 6}, 
+    {name: 'Smartwatches',img:'src/img/categories/smartwatch.png', id: 6}, 
   ]
   return (
     <>
