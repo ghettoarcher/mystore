@@ -12,9 +12,9 @@ export default function Header(){
                         <div><a href="">Contact Us</a></div>
                   </div>
                   <div className="menu">
-                        <a href="#"><img src="/src/img/search.png" alt=""/></a>
-                        <a href="#"><img src="/src/img/basket.png" alt=""/></a>
-                        <a href="#"><img src="/src/img/profile.png" alt=""/></a>
+                  <a href="#"><img className="menu-icon search" src="/src/icons/search1.png" alt=""/></a>
+                        <a href="#"><img className="menu-icon" src="/src/icons/cart.png" alt=""/></a>
+                        <a href="#"><img className="menu-icon" src="/src/icons/user.png" alt=""/></a>
 
                   </div>
                   </div>

@@ -18,3 +18,14 @@ header{
       text-decoration: none;
       color: #0c0c0c;
 }
+.menu{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      column-gap: 15px;
+}
+.menu-icon{
+      height: 24px;
+      width: 24px;
+}

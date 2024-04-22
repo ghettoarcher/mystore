@@ -63,6 +63,8 @@
 
 
 .presale{
+      height: 420px;
+      width: 756px;
       background: linear-gradient(287deg, #B0E9C9 0%, #1FB6CF 48%, #1975B9 100%);
       border-radius: 8px;
       display: flex;
@@ -71,23 +73,21 @@
 }
 
 .buynow{
+      height: 420px;
       background-color: #015690;
       border-radius: 8px;
-      max-width: 444px;
+      width: 444px;
       position: relative;
 }
 .buynow-title{
+      text-align: center;
       color: white;
-      margin-left: 135px;
-      padding-right: 135px;
       margin-top: 32px;
-      padding-bottom: 50px;
+
 
 }
 .buy-now-img{
-      right: 0;
-      margin-right: 20px;
-      float: right;
+      
 }
 .buynow-button{
       position: absolute;
@@ -103,10 +103,16 @@
 }
 
 .buynow-text{
-      position:absolute;
-      left: 40px;
-      bottom: 120px;
       color: white;
+      margin-left: 44px;
+      margin-top: 25px;
+}
+
+.img_and_text{
+      display: flex;
+      flex-direction: row;
+      align-items: end;
+      align-self: flex-end;
 }
 
 /*
