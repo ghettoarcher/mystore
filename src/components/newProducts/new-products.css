@@ -6,17 +6,13 @@
 .newproducts-items{
 
       display: flex;
-      flex-direction: row;
       column-gap: 24px;
       padding-top: 48px;
-      padding-bottom: 48px;
       justify-content: center;
       align-items: center;
 }
 
 .newproducts-item{
-      height: 347px;
-      width: 288px;
       padding: 16px;
       display: flex;
       flex-direction: column;
@@ -46,11 +42,14 @@
       margin-right: 2px;
 
 }
+.newproducts-item-img{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
 .newproducts-item-img img{
-      padding: 15px;
-      margin : 0 auto;
-      height: 161px;
-      width: 217px;
+      margin : 0 auto;  
+      width: 100%;
 }
 
 .newproducts-item-name{

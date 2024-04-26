@@ -57,8 +57,7 @@
       padding: 12px 8px;
       position:relative;
       border-radius: 8px;
-      width: 184px;
-      height: 228px;
+
 }
 
 .sale-item-name{
@@ -87,7 +86,6 @@
 .sale-item-price-new{
       color: #0C0C0C; 
       font-size: 16px; 
-      font-family: Inter; 
       font-weight: 300;
 }
 

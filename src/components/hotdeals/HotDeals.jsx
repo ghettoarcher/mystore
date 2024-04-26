@@ -12,8 +12,11 @@ export default function HotDeals(){
                   </div>
                         <div className="presale-info">
                               <Countdown/>
+                              <div className='presale-text'>
                               <div className="presale-subtitle">It feels good to be the first</div>
                               <div className="presale-description">Get ready for the future of smartphones.Experience innovation like never before. Stay tuned for the big iPhone 15 pre-sale.</div>
+                              </div>
+                              
                               <div className="button">Register Now</div>
                         </div>
                         </div>

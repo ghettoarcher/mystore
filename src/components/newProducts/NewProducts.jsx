@@ -1,7 +1,8 @@
 import Title from '../title/Title';
 import NewProductsItems from './NewProductsItems';
-export default function NewProducts(){
 
+export default function NewProducts(){
+      
       const newproductsData = [
       {
         id:1,

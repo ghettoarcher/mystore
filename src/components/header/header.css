@@ -1,8 +1,13 @@
+
+
 .header-nav{
       display: flex;
       flex-direction: row;
       justify-content: space-between;
       align-items: center;
+}
+.header-hamburger-btn{
+      display: none;
 }
 
 header{
@@ -10,8 +15,33 @@ header{
 }
 .nav{
       column-gap: 48px;
+      row-gap:24px;
       display: flex;
       flex-direction: row;
+      flex-wrap: wrap;
+      list-style-type: none;
+}
+.search-field{
+      display: none;
+      padding: 0 16px;
+      margin-top: 12px;
+      margin-bottom: 24px;
+      background-color: #ededed;
+      border-radius: 5px;
+      
+}
+.search-field input{
+      border:none;
+      background: #ededed;
+
+}
+.search-field input:focus{
+      outline: none;
+}
+.search-field input::placeholder{
+      font-size: 12px;
+      font-weight: 300;
+      color: #717171;
 }
 
 .nav a{
@@ -29,3 +59,8 @@ header{
       height: 24px;
       width: 24px;
 }
+@media screen and (max-width: 768px) {
+      .nav {
+        column-gap: 24px; /* Уменьшаем промежутки между элементами в меню */
+      }
+    }

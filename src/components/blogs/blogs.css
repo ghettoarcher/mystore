@@ -6,23 +6,26 @@
       display: flex;
       flex-direction: row;
       column-gap: 24px;
+      row-gap:16px;
+   
 }
+
 
 .blog-item-content{
       display: flex;
       flex-direction: row;
 }
 .blog-item-info{
-      margin-top: 30px;
-      margin-left: 16px;
-      margin-bottom: 30px;
+      display: flex;
+      flex-direction: column;
+      padding-top: 30px;
+      padding-left: 16px;
+      padding-bottom: 30px;
 }
 
 .blog-item{
       display: flex;
       flex-direction: row;
-      width: 808px;
-      height: 156px;
       border-radius: 8px;
       box-shadow: -2px 2px 15px -1px rgba(113, 113, 113, 0.12);
 
@@ -35,17 +38,14 @@
 
 .blog-item-img{
       border-radius: 8px;
-      width: 240px;
-      height: 156px;
       border-top-right-radius: 0px;
       border-bottom-right-radius: 0px;
 
 }
 .blog-item-img.main{
-      width: 392px;
-      height: 336px;
       border-bottom-left-radius: 0px;
       border-bottom-right-radius: 0px;
+      border-top-right-radius: 8px;
 }
 
 .blog-item-date-text{
@@ -55,7 +55,7 @@
 }
 
 .blog-item-descr{
-      height: 34px;
+
       font-size: 14px;
       font-weight: 300;
       color: #717171;
@@ -63,7 +63,6 @@
       
 }
 .blog-item-date{
-      padding-top: 8px;
       display: flex;
       flex-direction: row;
       column-gap: 8px;
@@ -72,14 +71,11 @@
 
 
 /*main-blog*/
-.date{
-      padding-top:18px;
-}
+
 .main-blog-content{
       display: flex;
       flex-direction: column;
-      height: 336px;
-      width: 392px;
+
       border-radius: 8px;
       box-shadow: -2px 2px 15px -1px rgba(113, 113, 113, 0.12);
 }
@@ -87,6 +83,10 @@
 .main-blog-data{
       display: flex;
       flex-direction: column;
+}
+
+.main-blog-title{
+      padding-top: 8px;
 }
 .main-blog-read-time{
       display: flex;
@@ -108,16 +108,12 @@
       flex-direction: row;
       justify-content: space-between;
 }
-.main-blog-title{
-      margin-top: 8px;
-}
-.main-blog-text{
-      padding-bottom: 16px;
-}
+
 
 .main-blog-subtitle{
       margin-top: 8px;
       font-weight: 300;
+      font-size: 16px;
 }
 
 

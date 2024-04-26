@@ -14,7 +14,8 @@
 @import url('./components/blogs/blogs.css');
 @import url('./components/services/services.css');
 @import url('./components/footer/footer.css');
-@import url('src/responsive.css');
+@import url('./responsive.css');
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -22,7 +23,7 @@
 }
 
 .container{
-  max-width: 1248px;
+  max-width: 1272px;
   padding: 0 24px;
   margin: 0 auto;
 }
@@ -31,18 +32,3 @@ body {
   box-sizing: border-box;
 }
 
-
-@media (max-width: 360px){
-  .container{
-        max-width: 312px;
-  }
-  .nav{
-    display: none;
-  }
-  .menu-icon.search{
-    display: none;
-  }
-  .logo{
-    display: none;
-  }
-}

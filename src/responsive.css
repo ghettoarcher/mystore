@@ -1,1 +1,241 @@
 
+@media (max-width: 320px) {
+      .nav{
+        color: white;
+        width: 280px;
+        position: absolute;
+        left: -350px;
+        top: 0;
+        display: block;
+        padding: 25px 20px 20px 20px;
+        background-color: #fff;
+        transition: transform .2s;
+      }
+      .header-nav.open .nav {
+        transform: translateX(100%);
+    
+      }
+      .header-nav.open .header-hamburger-btn span:nth-child(1){
+        transform: translateY(0) rotate(-45deg);
+      }
+      .header-nav.open .header-hamburger-btn span:nth-child(2){
+        opacity: 0;
+      }
+      .header-nav.open .header-hamburger-btn span:nth-child(3){
+        transform: translateY(0) rotate(45deg);
+    
+      }
+      .header-hamburger-btn{
+        width: 30px;
+        height: 30px;
+        border: none;
+        position: relative;
+        display: block;
+        z-index: 2;
+      }
+      .search{
+        display: none;
+      }
+    
+      .search-field{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+    .header-hamburger-btn span{
+        position: absolute;
+        width: 20px;
+        height: 2px;
+        background: black;
+        left:5px;
+        transition: transform .5s, opacity .5s, background-color .5s;
+    }
+    .header-hamburger-btn span:nth-child(1){
+        transform: translateY(-7px);
+    }
+    .header-hamburger-btn span:nth-child(3){
+        transform: translateY(7px);
+    }
+      .nav li a{
+        display: block;
+        padding: 10px 0;
+      }
+      .header-nav{
+        position: relative;
+      }
+      .logo{
+        display: none;
+      }
+    
+        .title{
+          font-size: 16px;
+        }
+        .title-button{
+          font-size: 14px;
+        }
+        .services-text{
+          font-size: 14px;
+        }
+        .main__header{
+          font-size: 24px;
+        }
+    
+        .hotdeals-content{
+          flex-direction: column;
+        }
+        .presale-title{
+          font-size: 14px;
+        }
+        .presale-subtitle{
+          font-size: 8px;
+          margin-top: 16px;
+        }
+        .presale-description{
+          font-size: 6px;
+          line-height: 1.5;
+        }
+        .presale-img{
+          width: 100%;
+        }
+        .main__subtitle{
+          font-size: 9px;
+        }
+        .copyright{
+          display: none;
+        }
+        .top-brands-content{
+          margin-top: 16px;
+          margin-bottom: 24px;
+        }
+        .main__button{
+          width: 89px;
+          height: 32px;   
+        }
+        .main__button a{
+          font-size: 9px;
+        }
+        .main-img{
+          width: 209px;
+          height: 157px;
+        }
+        .categories-item-img a img{
+          width: 65px;
+          height: 66px;
+        }
+        .categories-item-name{
+          font-size: 12px;
+        }
+        .categories-wrapper{
+          column-gap: 16px;
+          padding-top: 0;
+        }
+        .blogs-content{
+          flex-wrap: wrap;
+          flex-direction: column;
+        }
+        .blog-item-content{
+          flex-direction: column;
+        }
+        .blog-item-title{
+          padding-top: 8px;
+        }
+        .main-blog-title{
+          font-size: 16px;
+        } 
+        .main-blog-subtitle{
+          font-size: 12px;
+        }
+        .blog-item-img.main{
+          width: 275px;
+        }
+        .blog-item-info{
+          padding-right: 16px;
+          padding-top: 8px;
+        }
+        .blog-item-date.date{
+          order:0;
+        }
+        .blog-item-title{
+          order:1;
+        }
+        .blog-item-descr{
+          order:2;
+        }
+        .blog-item-date{
+          padding-top: 8px;
+        }
+        .hide{
+          display: none;
+        }
+        .newproducts-items{
+          flex-wrap: wrap;
+          gap: 16px;
+          padding-top: 16px;
+        }
+          .new-products{
+            padding: 24px 0;
+      
+      }  
+      .top-brands-item{
+        width: 66px; height: 70px
+      }
+      .sale-item{
+        width: 102px;
+        height: 142px;
+      }
+        .newproducts-item{
+          width: 40%;
+          padding: 8px;
+        }
+        .sale-title a{
+          font-size: 14px;
+        }
+        .sale-subtitle a{
+          font-size: 12px;
+        }
+        .sale-button{
+          font-size: 14px;
+        }
+        .newproducts-item-info{
+          margin-top: 10px;
+        }
+        .newproducts-item-name {
+          margin-top: 7px;
+          font-size: 12px;
+      }
+      .newproducts-item-price {
+        font-size: 12px;
+    }
+    .newproducts-item-rating{
+      font-size: 10px;
+    
+    }
+      .horizontal {
+        margin:7px 0;
+    }
+    .countdown-block{
+      width: 23px;
+      height: 24px;
+      padding: 0;
+      font-size: 7px;
+      
+    }
+    .countdown{
+      margin-top: 8px;
+      column-gap: 4px;
+    }
+    .button{
+      width: 90px;
+      height: 25px;
+      font-size: 14px;
+      padding: 8px;
+      font-weight: 400;
+    }
+    
+    .advertisement-title{
+      font-size: 16px;
+    }
+    .advertisement-subtitle{
+      font-size: 12px;
+    }
+    }

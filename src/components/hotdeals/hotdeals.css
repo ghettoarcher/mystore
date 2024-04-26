@@ -36,8 +36,7 @@
 }
 
 .presale-description{
-      max-width: 248px;
-      max-height: 120px; 
+
       color: #2D2D2D;
       font-size: 16px;
       font-weight: 300; 
@@ -63,20 +62,21 @@
 
 
 .presale{
-      height: 420px;
-      width: 756px;
+
       background: linear-gradient(287deg, #B0E9C9 0%, #1FB6CF 48%, #1975B9 100%);
       border-radius: 8px;
       display: flex;
       flex-direction:row;
       
 }
+.presale-text{
+      width: 250px;
+}
 
 .buynow{
-      height: 420px;
+      width: 444px;
       background-color: #015690;
       border-radius: 8px;
-      width: 444px;
       position: relative;
 }
 .buynow-title{

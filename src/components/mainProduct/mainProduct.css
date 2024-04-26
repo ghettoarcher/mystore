@@ -1,15 +1,10 @@
 
 .main__header{
-     width: 337px;
       color: #042352; 
       font-size: 64px; 
-      font-family: Inter;
        font-weight: 600;
 }
-.main-img{
-      width: 728px;
-      height: 443px;
-}     
+ 
 .main-product-content{
       display: flex;
       flex-direction: row;
@@ -17,10 +12,8 @@
 }
 
 .main__subtitle{
-      width: 419px;
       color: #042352; 
       font-size: 32px; 
-      font-family: Inter;
        font-weight: 500;
 
 }
@@ -28,10 +21,10 @@
       color: #F45E0C; 
 }
 .main__button{
+      width: 288px;
+      height: 56px;
       text-align: center;
       display: block;
-      width: 288px; 
-      height: 56px; 
       background: #F45E0C; 
       border-radius: 8px;
       border: none;

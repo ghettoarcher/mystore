@@ -26,10 +26,10 @@ export default function Footer(){
                                     <div className="footer-column-item semi-bold">Sign up for News and updates</div>
                                     <div className="footer-column-input"><img src="src/icons/footer/user.png" alt="" /><input type="text" placeholder="E-mail Address"/><img src="src/icons/footer/arrow-right.png" alt="" /></div>
                                     <div className="footer-column-socials">
-                                    <a href="#"><img src="src/icons/footer/facebook.png" alt="facebook" className="socials"/></a>
-                                    <a href="#"><img src="src/icons/footer/twitter.png" alt="twitter" className="socials"/></a>
-                                    <a href="#"><img src="src/icons/footer/instagram.png" alt="instagram" className="socials"/></a>
-                                    <a href="#"><img src="src/icons/footer/youtube.png" alt="youtube" className="socials"/></a>
+                                    <a href="#"><img src="src/icons/footer/Facebook.svg" alt="facebook" className="socials"/></a>
+                                    <a href="#"><img src="src/icons/footer/twitter.svg" alt="twitter" className="socials"/></a>
+                                    <a href="#"><img src="src/icons/footer/Instagram.svg" alt="instagram" className="socials"/></a>
+                                    <a href="#"><img src="src/icons/footer/Youtube.svg" alt="youtube" className="socials"/></a>
                                     </div>
                               </div>
                               <div className="footer-icons">

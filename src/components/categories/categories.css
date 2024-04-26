@@ -8,6 +8,7 @@
 }
 
 .categories-item{
+      max-width: 184px;
       background: white;
       box-shadow: -2px 2px 15px -1px rgba(113, 113, 113, 0.12);
        border-radius: 8px;
@@ -25,8 +26,7 @@
 .categories-item-name{
       padding-bottom: 8px;
       text-align: center; 
-      font-size: 16px; 
-      font-family: Inter; 
+      font-size: 16px;  
       font-weight: 300;
       line-height: 24px;
 }
