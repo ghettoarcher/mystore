@@ -5,14 +5,14 @@ export default function Bestsellers(){
       const bestsellersData = [
             {
                   id:1,
-                    img: '/src/img/bestsellers/razer.png',
+                    img: '/src/img/bestsellers/razer.jpg',
                     name:'Iphone 14 promax 256GB',
                     price:'$930.00',
                     rating:'4.9',  
                 },
                 { 
                       id:2,
-                      img: '/src/img/bestsellers/ps4.png',
+                      img: '/src/img/bestsellers/playstation.jpg',
                       name:'Iphone 14 promax 256GB',
                       price:'$930.00',
                       rating:'4.9',  
