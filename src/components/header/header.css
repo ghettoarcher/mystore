@@ -55,10 +55,7 @@ header{
       align-items: center;
       column-gap: 15px;
 }
-.menu-icon{
-      height: 24px;
-      width: 24px;
-}
+
 @media screen and (max-width: 768px) {
       .nav {
         column-gap: 24px; /* Уменьшаем промежутки между элементами в меню */

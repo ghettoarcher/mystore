@@ -1,4 +1,9 @@
+import PayMethods from '../PayMethods/PayMethods';
+import Copyright from './Copyright/Copyright';
+import Socials from './Socials/Socials';
+import SignUpField from './SignUpField/SignUpField';
 export default function Footer(){
+
       return(
             <section className="footer">
                   <div className="container">
@@ -18,45 +23,21 @@ export default function Footer(){
                               </div>
                               <div className="footer-column">
                                     <div className="footer-column-item semi-bold">Contact us</div>
-                                    <div className="footer-column-item"><img className= "footer-column-icon" src="src/icons/footer/location.png" alt=""/> <a href="#">123 Main Street, Anytown,USA</a></div>
-                                    <div className="footer-column-item"><img className= "footer-column-icon" src="src/icons/footer/call.png" alt="" /><a href="#">+1 (555) 123-4567</a> </div>
-                                    <div className="footer-column-item"><img className= "footer-column-icon" src="src/icons/footer/mail.png" alt="" /><a href="#">TechHeimSupport@gmail.com</a></div>
+                                    <div className="footer-column-item"><img className= "footer-column-icon" src="src/icons/footer/location.svg" alt=""/> <a href="#">123 Main Street, Anytown,USA</a></div>
+                                    <div className="footer-column-item"><img className= "footer-column-icon" src="src/icons/footer/call.svg" alt="" /><a href="#">+1 (555) 123-4567</a> </div>
+                                    <div className="footer-column-item"><img className= "footer-column-icon" src="src/icons/footer/mail.svg" alt="" /><a href="#">TechHeimSupport@gmail.com</a></div>
                               </div> 
                               <div className="footer-column"> 
-                                    <div className="footer-column-item semi-bold">Sign up for News and updates</div>
-                                    <div className="footer-column-input"><img src="src/icons/footer/user.png" alt="" /><input type="text" placeholder="E-mail Address"/><img src="src/icons/footer/arrow-right.png" alt="" /></div>
-                                    <div className="footer-column-socials">
-                                    <a href="#"><img src="src/icons/footer/Facebook.svg" alt="facebook" className="socials"/></a>
-                                    <a href="#"><img src="src/icons/footer/twitter.svg" alt="twitter" className="socials"/></a>
-                                    <a href="#"><img src="src/icons/footer/Instagram.svg" alt="instagram" className="socials"/></a>
-                                    <a href="#"><img src="src/icons/footer/Youtube.svg" alt="youtube" className="socials"/></a>
-                                    </div>
+                                    <SignUpField/>
+                                    <Socials/>
                               </div>
                               <div className="footer-icons">
-                              <a href="#"><img src="src/icons/footer/online-chat.png" alt="" className="online-chat" /></a>
-                              <a href="#"><img src="src/icons/footer/totop.png" alt="" className="arrowToTop" /></a>
-                              </div>
-
-                              
-
-                              
+                              <a href="#"><img src="src/icons/footer/chat-icon.svg" alt="" className="online-chat" /></a>
+                              <a href="#"><img src="src/icons/footer/back-to-top.svg" alt="" className="arrowToTop" /></a>
+                              </div>  
                         </div>
-                        <div className="paymethods">
-                                    <img src="src/icons/footer/paypal.png" alt="" />
-                                    <img src="src/icons/footer/american-express.png" alt="" />
-                                    <img src="src/icons/footer/visa.png" alt="" />
-                                    <img src="src/icons/footer/mastercard.png" alt="" />
-                        </div>
-                        <div className="copyright">
-                              <div className="copyright-icon"><img className="copyright-icon" src="src/icons/footer/copyright.png" alt=""/><div className="copyright-icon-text">2023 Tech Heim.</div></div>
-                              
-                              <div className="copyright-content">
-                                    <div className="copyright-item"><a href="">cookie settings</a></div>
-                                    <div className="copyright-item"><a href="">Privacy Policy</a></div>
-                                    <div className="copyright-item"><a href="">Terms and Conditions</a></div>
-                                    <div className="copyright-item"><a href="">Imprint</a></div>
-                              </div>
-                        </div>
+                        <PayMethods/>
+                        <Copyright/>
                   </div>
             </section>
       )

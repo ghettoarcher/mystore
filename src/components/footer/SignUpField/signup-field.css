@@ -1,0 +1,37 @@
+.footer-column-input{
+      width: 288px;
+      height: 48px;
+      border-radius: 8px;
+      border: solid 1px #f9f9f9;
+      display: flex;
+      flex-direction: row;
+      column-gap: 8px;
+      align-items: center;
+      padding-left: 10px;
+}
+
+.footer-column-input img{
+      width: 24px;
+      height: 24px;
+}
+.footer-column-input::placeholder{
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 1.5;
+      color: #f9f9f9;
+}
+
+
+.footer-column-input input{
+
+      margin-left: 8px;
+      background: transparent;
+      border: none;
+      height: 47px;
+      width: 200px;
+      color: #f9f9f9;
+}
+
+.footer-column-input input:focus{
+      outline: none;
+}

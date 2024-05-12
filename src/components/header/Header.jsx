@@ -30,9 +30,9 @@ export default function Header() {
                         <li><a href="">Contact Us</a></li>
                     </ul>
                     <div className="menu">
-                        <a href="#"><img className="menu-icon search" src="/src/icons/search1.png" alt=""/></a>
-                        <a href="#"><img className="menu-icon" src="/src/icons/cart.png" alt=""/></a>
-                        <a href="#"><img className="menu-icon" src="/src/icons/user.png" alt=""/></a>
+                        <a href="#"><img className="menu-icon search" src="/src/icons/header/search.svg" alt=""/></a>
+                        <a href="#"><img className="menu-icon" src="/src/icons/header/cart.svg" alt=""/></a>
+                        <a href="#"><img className="menu-icon" src="/src/icons/header/user.svg" alt=""/></a>
                     </div>
                     
                 </div>
