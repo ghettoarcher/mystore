@@ -1,4 +1,4 @@
-const ProductList = ({ data }) => {
+const Categories = ({ data }) => {
   return (
     <div >
       <div className="container">
@@ -17,4 +17,4 @@ const ProductList = ({ data }) => {
   );
 };
 
-export default ProductList;
+export default Categories;
