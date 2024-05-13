@@ -31,6 +31,13 @@ export default function Bestsellers(){
                       price:'$930.00',
                       rating:'4.9',  
                   },
+                  {
+                        id:5,
+                        img: '/src/img/bestsellers/airpods.svg',
+                        name:'Iphone 14 promax 256GB',
+                        price:'$930.00',
+                        rating:'4.9',  
+                    },
             ]
 
       return(

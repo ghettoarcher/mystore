@@ -1,5 +1,4 @@
-
-const SaleData = ({ data }) => {
+const SaleItems = ({ data }) => {
   return (
       <div className='sale-items-wrapper'>
         {data.map(item => (
@@ -18,4 +17,4 @@ const SaleData = ({ data }) => {
   );
 };
 
-export default SaleData;
+export default SaleItems;
