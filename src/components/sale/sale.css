@@ -47,7 +47,7 @@
 }
 
 .sale-button a{
-
+      cursor: pointer;
       text-align: center;
 
 }

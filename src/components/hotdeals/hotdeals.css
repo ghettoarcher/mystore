@@ -4,22 +4,29 @@
 .hotdeals-content{
       display: flex;
       flex-direction: row;
-      column-gap:24px;
+      justify-content: space-between;
 }
+.hotdeals-content .buynow {
+      margin-right: 0; /* Убираем column-gap только у последнего элемента */
+  }
 .presale-info{
       padding-right: 66px;
+      display: flex;
+    flex-direction: column;
+      row-gap: 24px;
+    padding-top: 44px;
+    padding-left: 12px;
 }
-.presale-img img{
-      width: 80%;
-}
+
 
 .presale-title-wrapper{
       display: flex;
       flex-direction: column;
       padding: 24px;
+      row-gap: 60px;
 }
 .presale-title{
-     text-align: center;
+      margin-left: 24px;
        font-size: 24px;
       color: white;  
       font-weight: 500; 
@@ -74,24 +81,35 @@
 }
 
 .buynow{
+      position: relative;
       width: 444px;
       background-color: #015690;
       border-radius: 8px;
       position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
 }
 .buynow-title{
       text-align: center;
       color: white;
       margin-top: 32px;
-
-
+}
+.buynow-content-wrapper{
+      position: relative;
+      display: flex;
+      flex-direction: row;
 }
 .buy-now-img{
+      float: right;
+      margin-right: 10px;
+
+      
       
 }
 .buynow-button{
       position: absolute;
-      bottom: 30px;
+      bottom: 27px;
       left: 50px;
       
 }
@@ -106,19 +124,22 @@
       color: white;
       margin-left: 44px;
       margin-top: 25px;
+      position: relative;
+}
+.buynow-title{
+      font-size: 24px;
 }
 
-.img_and_text{
-      display: flex;
-      flex-direction: row;
-      align-items: end;
-      align-self: flex-end;
-}
-
-/*
-
-
-
-
-
-*/
+.buy-now-img {
+      float: right;
+      margin-right: 10px;
+      margin-bottom: 10px; /* добавляем отступ снизу */
+  }
+  
+  .buynow-text {
+      color: white;
+      margin-left: 44px;
+      margin-top: 25px;
+      position: relative;
+  }
+  

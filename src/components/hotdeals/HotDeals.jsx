@@ -8,7 +8,7 @@ export default function HotDeals(){
                         <div className="presale">
                   <div className="presale-title-wrapper">
                         <div className="presale-title"> <span>Iphone</span> 15 Series</div>
-                        <img className="presale-img" src="/src/img/feature/iphone.png" alt=""/>
+                        <img className="presale-img" src="/src/img/feature/iphone.svg" alt=""/>
                   </div>
                         <div className="presale-info">
                               <Countdown/>
@@ -22,9 +22,8 @@ export default function HotDeals(){
                         </div>
                   <div className="buynow">
                         <div className="buynow-title">Play Station 5</div>
-                        <img className="buy-now-img" src="/src/img/ps53.png" alt="" />
+                        <img className="buy-now-img" src="/src/img/feature/ps53.svg" alt="" />
                         <div className="buynow-text">Digital Edition + 2TB</div>
-
                         <div className="buynow-button button">Buy now</div>
                   </div>
                         </div>
