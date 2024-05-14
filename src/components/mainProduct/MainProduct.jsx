@@ -11,7 +11,7 @@ export default function MainProduct (){
                                     <h3 className="main__subtitle">"Join the <span>digital revolution</span></h3>
                                     <div className="main__button"><a href="">Explore more</a></div>
                               </div>
-                        <img className="main-img" src="/src/img/main-img.png" alt="" />
+                        <img className="main-img" src="/src/img/main/main-product.svg" alt="" />
                         </div>
 
                   

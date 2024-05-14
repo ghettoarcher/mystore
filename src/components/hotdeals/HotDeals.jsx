@@ -23,8 +23,10 @@ export default function HotDeals(){
                   <div className="buynow">
                         <div className="buynow-title">Play Station 5</div>
                         <img className="buy-now-img" src="/src/img/feature/ps53.svg" alt="" />
-                        <div className="buynow-text">Digital Edition + 2TB</div>
-                        <div className="buynow-button button">Buy now</div>
+                        <div className='buynow-nav'>                        
+                              <div className="buynow-text">Digital Edition + 2TB</div>
+                              <div className="buynow-button button">Buy now</div>
+                        </div>
                   </div>
                         </div>
                   </div>

@@ -1,6 +1,7 @@
 .hotdeals{
       margin-bottom: 48px;
 }
+
 .hotdeals-content{
       display: flex;
       flex-direction: row;
@@ -8,7 +9,8 @@
 }
 .hotdeals-content .buynow {
       margin-right: 0; /* Убираем column-gap только у последнего элемента */
-  }
+}
+
 .presale-info{
       padding-right: 66px;
       display: flex;
@@ -17,7 +19,6 @@
     padding-top: 44px;
     padding-left: 12px;
 }
-
 
 .presale-title-wrapper{
       display: flex;
@@ -48,8 +49,20 @@
       font-size: 16px;
       font-weight: 300; 
       line-height: 24px;
-
 }
+
+.presale{
+
+      background: linear-gradient(287deg, #B0E9C9 0%, #1FB6CF 48%, #1975B9 100%);
+      border-radius: 8px;
+      display: flex;
+      flex-direction:row;    
+}
+
+.presale-text{
+      width: 250px;
+}
+
 .button{
       margin: 0 auto;
       width: 120px; 
@@ -66,26 +79,10 @@
       justify-content: center;
       
 }
-
-
-.presale{
-
-      background: linear-gradient(287deg, #B0E9C9 0%, #1FB6CF 48%, #1975B9 100%);
-      border-radius: 8px;
-      display: flex;
-      flex-direction:row;
-      
-}
-.presale-text{
-      width: 250px;
-}
-
 .buynow{
-      position: relative;
       width: 444px;
       background-color: #015690;
       border-radius: 8px;
-      position: relative;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
@@ -94,25 +91,22 @@
       text-align: center;
       color: white;
       margin-top: 32px;
+      font-size: 24px;
 }
 .buynow-content-wrapper{
-      position: relative;
       display: flex;
       flex-direction: row;
 }
 .buy-now-img{
-      float: right;
-      margin-right: 10px;
-
-      
-      
+      align-self: flex-end;
+      margin-right: 10px;  
+      max-width: 210px;
+      height: 169px;
 }
 .buynow-button{
-      position: absolute;
-      bottom: 27px;
-      left: 50px;
       
 }
+
 .ellipse{
   position: absolute;
   overflow: hidden;
@@ -124,22 +118,12 @@
       color: white;
       margin-left: 44px;
       margin-top: 25px;
-      position: relative;
-}
-.buynow-title{
-      font-size: 24px;
+      font-size: 20px;
 }
 
-.buy-now-img {
-      float: right;
-      margin-right: 10px;
-      margin-bottom: 10px; /* добавляем отступ снизу */
-  }
-  
-  .buynow-text {
-      color: white;
-      margin-left: 44px;
-      margin-top: 25px;
-      position: relative;
-  }
-  
+.buynow-nav{
+      display: flex;
+      flex-direction: column;
+      row-gap: 60px;
+      margin-bottom: 36px;
+}
