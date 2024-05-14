@@ -80,6 +80,7 @@
       
 }
 .buynow{
+      position: relative;
       width: 444px;
       background-color: #015690;
       border-radius: 8px;
@@ -98,10 +99,13 @@
       flex-direction: row;
 }
 .buy-now-img{
+      position: absolute;
+      bottom: 100px;
       align-self: flex-end;
       margin-right: 10px;  
       max-width: 210px;
       height: 169px;
+      
 }
 .buynow-button{
       
