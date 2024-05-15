@@ -33,8 +33,9 @@
 .blogs-small{
       display: flex;
       flex-direction: column;
-      row-gap: 24px;
+      justify-content: space-between;
 }
+
 
 .blog-item-img{
       border-radius: 8px;
@@ -63,6 +64,7 @@
       
 }
 .blog-item-date{
+      padding-top: 18px;
       display: flex;
       flex-direction: row;
       column-gap: 8px;
@@ -84,10 +86,16 @@
       display: flex;
       flex-direction: column;
 }
-
-.main-blog-title{
+.main-blog-text{
       padding-top: 8px;
+      padding-bottom: 16px;
 }
+.main-blog-title{
+      font-size: 20px;
+      font-weight: 500;
+      color: #0c0c0c;
+}
+
 .main-blog-read-time{
       display: flex;
       flex-direction: row;

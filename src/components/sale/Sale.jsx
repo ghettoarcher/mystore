@@ -54,6 +54,11 @@ export default function Sale(){
                         <div className="arrow-left"><img src="/src/icons/arrow-cirle-left.png" alt="" /></div>
                         <div className="arrow-right"><img src="/src/icon/arrow-circle-right.png" alt="" /></div>
                   </div>
+                  <div className="arrows">
+                        <img src="src/icons/sale/arrow-circle-left.svg" alt="" />
+                        <img src="src/icons/sale/arrow-circle-right.svg" alt="" />
+                  </div>
+
             </div>
                   </div>
             </div>
