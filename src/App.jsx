@@ -11,7 +11,6 @@ import Blogs from './components/blogs/Blogs';
 import Services from './components/services/Services';
 import Footer from './components/footer/Footer';
 
-
 function App() {
   const categoriesItemsList = [
     {name: 'Accessories',img:'src/img/categories/accessories.svg',id:1}, 

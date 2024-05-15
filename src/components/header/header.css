@@ -20,7 +20,7 @@ header{
       flex-direction: row;
       flex-wrap: wrap;
       list-style-type: none;
-}
+}     
 .search-field{
       display: none;
       padding: 0 16px;
