@@ -15,7 +15,9 @@
 @import url('./components/services/services.css');
 @import url('./components/footer/footer.css');
 @import url('./responsive.css');
-@import url('./components/header/products-menu.css');
+@import url('./components/header/ProductsMenu/products-menu.css');
+@import url('./components/header/userMenu.css');
+
 
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;

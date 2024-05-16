@@ -1,0 +1,47 @@
+     /*  ======= userMenu */
+     .userMenu{
+      position: absolute;
+      right: 20px;
+      top: 50px;
+      background-color: white;
+      z-index: 2;
+      border-radius: 8px;
+    
+    }
+    .userMenu ul{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      list-style-type: none;
+      row-gap: 24px;
+      padding: 16px;
+    
+    }
+    .userMenu li{
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      column-gap: 16px;
+      align-items: flex-start;
+      font-size: 18px;
+      font-weight: 300;
+      color: #0c0c0c;
+    
+    }
+    .userMenu li a{
+      text-decoration: none;
+      color: #0c0c0c;
+    }
+    
+    .userMenu__name{
+      font-size: 18px;
+      font-weight: 300;
+      color: #0c68f4;
+    }
+    
+    .userMenu__email{
+      font-size: 14px;
+      font-weight: 300;
+      color: #000;
+    }
+    
