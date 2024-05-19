@@ -22,7 +22,7 @@
       flex-direction: row;
       justify-content: flex-start;
       column-gap: 16px;
-      align-items: flex-start;
+      align-items: center;
       font-size: 18px;
       font-weight: 300;
       color: #0c0c0c;

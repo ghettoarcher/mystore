@@ -17,6 +17,7 @@
 @import url('./responsive.css');
 @import url('./components/header/ProductsMenu/products-menu.css');
 @import url('./components/header/userMenu.css');
+@import url('./components/header/SearchMenu/search-menu.css');
 
 
 :root {

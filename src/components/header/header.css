@@ -23,6 +23,7 @@ header{
       flex-wrap: wrap;
       list-style-type: none;
 }     
+/* MOBILE VERSION SEARCH*/
 .search-field{
       display: none;
       padding: 0 16px;
@@ -45,6 +46,7 @@ header{
       font-weight: 300;
       color: #717171;
 }
+/* END OF MOBILE VERSION SEARCH */
 
 .nav a{
       text-decoration: none;
