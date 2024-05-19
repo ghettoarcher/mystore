@@ -3,6 +3,7 @@ import ProductsMenu from './ProductsMenu/ProductsMenu';
 import { useEffect,useState } from 'react';
 import SearchMenu from './SearchMenu/SearchMenu';
 
+import {Link} from 'react-router-dom';
 
 export default function Header() {
     useEffect(() => {
@@ -51,9 +52,9 @@ export default function Header() {
                 <button className="header-hamburger-btn" id="burger">
                     <span></span><span></span><span></span>
                 </button>
-                <div className="logo"><a href=""><img src="/src/icons/header/logo.svg" alt=""/></a></div>
+                <div className="logo"><Link to="/"><img src="/src/icons/header/logo.svg" alt=""/></Link></div>
                 <ul className="nav">
-                    <li><a href="">Home</a></li>
+                    <li><Link to="/">Home</Link></li>
                     <li><a href="" onClick={(e) => {e.preventDefault(); toggleProductsMenu();}}>Products</a></li>
                     <li><a href="">Blog</a></li>
                     <li><a href="">FAQ</a></li>
