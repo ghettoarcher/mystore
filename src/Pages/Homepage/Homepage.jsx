@@ -12,7 +12,6 @@ import Services from '../../components/services/Services';
 import Footer from '../../components/footer/Footer';
 
 
-
 function Homepage() {
   const categoriesItemsList = [
     {name: 'Accessories',img:'src/img/categories/accessories.svg',id:1}, 
@@ -24,7 +23,7 @@ function Homepage() {
   ]
   return (
     <>
-    <Header/>
+    <Header></Header>
     <MainProduct/>
     <Categories data={categoriesItemsList}/>
     <Sale/>
@@ -35,8 +34,8 @@ function Homepage() {
     <Advertisement/>
     <Blogs/>
     <Services/> 
-    <Footer/>
-    </>
+    <Footer></Footer>
+      </>
   )
 }
 

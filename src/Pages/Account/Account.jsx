@@ -1,12 +1,16 @@
 
 import Header from '../../components/header/Header'
+import Path from '../../components/path/Path';
+import AccountSettings from '../../components/AccountSettings/AccountSettings';
+
 const Account = () =>{
       return(
-            <>    
+            <>
             <Header/>
-            <h1>Account Page</h1>
-            
+            <Path/>
+            <AccountSettings/>
             </>
+
       )
 }
 

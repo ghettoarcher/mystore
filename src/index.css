@@ -8,7 +8,6 @@
 @import url('./components/title/title.css');
 @import url('./components/countdown/countdown.css');
 @import url('./components/hotdeals/hotdeals.css');
-@import url('./components/bestsellers/bestsellers.css');
 @import url('./components/topbrands/topbrands.css');
 @import url('./components/advertisement/advertisement.css');
 @import url('./components/blogs/blogs.css');
@@ -18,8 +17,11 @@
 @import url('./components/header/ProductsMenu/products-menu.css');
 @import url('./components/header/userMenu.css');
 @import url('./components/header/SearchMenu/search-menu.css');
-
-
+@import url('./components/path/path.css');
+@import url('./Pages/Account/Account.css');
+@import url('./components/AccountSettings/account-settings.css');
+@import url('./components/AccountSettings/PersonalData/personal-data.css');
+@import url('./components/AccountSettings/EditField/edit-field.css');
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -35,5 +37,12 @@
 body {
   margin: 0;
   box-sizing: border-box;
+}
+
+.bold{
+  font-weight: 500;
+}
+p{
+  margin: 0;
 }
 

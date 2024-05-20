@@ -1,0 +1,29 @@
+
+.account-settings{
+      display: flex;
+      flex-direction: row;
+      column-gap: 24px;
+      margin-top: 46px;
+}
+.account-settings-item{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      column-gap: 16px;
+      padding: 24px;   
+}
+.account-settings-content{
+      background-color: #f9f9f9;
+      border-radius: 8px;
+}
+
+.account-text{
+      text-decoration: none;
+      font-size: 20px;
+      font-weight: 300;
+      color: #0c0c0c;
+}
+
+.account-text:first-child{
+      font-weight: 500;
+}
