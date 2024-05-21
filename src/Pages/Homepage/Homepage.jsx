@@ -1,4 +1,4 @@
-import Header from '../../components/header/Header';
+
 import MainProduct from '../../components/mainProduct/MainProduct';
 import Categories from '../../components/categories/Categories';
 import Sale from '../../components/sale/Sale';
@@ -9,7 +9,7 @@ import TopBrands from '../../components/topbrands/TopBrands';
 import Advertisement from '../../components/advertisement/Advertisement';
 import Blogs from '../../components/blogs/Blogs';
 import Services from '../../components/services/Services';
-import Footer from '../../components/footer/Footer';
+
 
 
 function Homepage() {
@@ -23,7 +23,6 @@ function Homepage() {
   ]
   return (
     <>
-    <Header></Header>
     <MainProduct/>
     <Categories data={categoriesItemsList}/>
     <Sale/>
@@ -34,7 +33,6 @@ function Homepage() {
     <Advertisement/>
     <Blogs/>
     <Services/> 
-    <Footer></Footer>
       </>
   )
 }

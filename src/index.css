@@ -22,6 +22,7 @@
 @import url('./components/AccountSettings/account-settings.css');
 @import url('./components/AccountSettings/PersonalData/personal-data.css');
 @import url('./components/AccountSettings/EditField/edit-field.css');
+@import url('./components/AccountSettings/Payments/payments.css');
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -44,5 +45,9 @@ body {
 }
 p{
   margin: 0;
+}
+
+.blue{
+  color: #0c68f4;
 }
 

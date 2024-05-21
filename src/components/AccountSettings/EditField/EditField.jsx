@@ -1,3 +1,5 @@
+import editIcon from '../../../icons/account/edit.svg';
+
 const EditField = ({title,icon,placeholder}) => {
       return(
             <div className="edit-field">
@@ -5,7 +7,7 @@ const EditField = ({title,icon,placeholder}) => {
                               <div className="edit-field-content">
                               <img className="edit-field-icon" src={icon} alt="" />
                               <input type="text" placeholder={placeholder}  />
-                              <img src="src/icons/account/edit.svg" alt="" />
+                              <img src={editIcon} alt="" />
                               </div>
                         
                         </div>

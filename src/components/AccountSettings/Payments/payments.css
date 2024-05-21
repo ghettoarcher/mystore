@@ -1,0 +1,16 @@
+.wrapper{
+      display: flex;
+      flex-direction: row;
+      column-gap: 8px;
+      align-items: center;
+      cursor: pointer;
+}
+
+.div{
+      display: flex;
+      flex-direction: row;
+      column-gap: 8px;
+      align-items: center;
+      justify-content: center;
+
+}
