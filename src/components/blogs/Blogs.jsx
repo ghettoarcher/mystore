@@ -33,9 +33,9 @@ export default function Blogs(){
             <section className="blogs">
                   <div className="container">
                   <Title name = {'Our Blogs'}/>
-                  <div className="blogs-content">
+                  <div className="blogs-content d-flex flex-row">
                         <MainBlog data ={mainBlogData}/>
-                        <div className="blogs-small">
+                        <div className="blogs-small d-flex flex-column justify-content-between">
                               <BlogList data = {blogData}/>
                         </div>
             </div>
