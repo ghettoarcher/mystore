@@ -2,7 +2,7 @@ export default function Services(){
       return(
             <section className="services">
                   <div className="container">
-                        <div className="services-content">
+                        <div className="services-content d-flex flex-row justify-content-between flex-wrap">
                               <div className="services-item">
                                     <div className="services-icon"><img src="src/icons/services/tech-icon.svg" alt="" /></div>
                                     <div className="services-text">Latest and Greatest Tech</div>

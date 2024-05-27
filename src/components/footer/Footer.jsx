@@ -7,7 +7,7 @@ export default function Footer(){
       return(
             <section className="footer">
                   <div className="container">
-                        <div className="footer-content">
+                        <div className="footer-content d-flex flex-row justify-content-between">
                               <div className="footer-column">
                                     <div className="footer-column-item semi-bold"><a href="">Company</a></div>
                                     <div className="footer-column-item"><a href="">About us</a></div>
@@ -31,7 +31,7 @@ export default function Footer(){
                                     <SignUpField/>
                                     <Socials/>
                               </div>
-                              <div className="footer-icons">
+                              <div className="footer-icons d-flex flex-column justify-content-between">
                               <a href="#"><img src="src/icons/footer/chat-icon.svg" alt="" className="online-chat" /></a>
                               <a href="#"><img src="src/icons/footer/back-to-top.svg" alt="" className="arrowToTop" /></a>
                               </div>  
