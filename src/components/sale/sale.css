@@ -1,21 +1,15 @@
 .sale-wrapper{
-      position: relative;
-      max-height: 325px;
-      background-color:#073a88;
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-
+      height: 325px;
+      background-color:#073a88;     
 }
 .sale-items{
       margin-right: 20px;
-      
 }
 .sale-title a{
       color: white;
-       font-size: 24px;
-        font-weight: 500;
-        text-decoration: none;
+      font-size: 24px;
+      font-weight: 500;
+      text-decoration: none;
 
 }
 .sale-subtitle a{
@@ -30,11 +24,7 @@
 }
 
 .sale-items-wrapper{
-      display: flex;
-      flex-direction: row;
       gap: 24px;
-      padding-top: 44px;
-      padding-bottom: 44px;
 }
 
 .sale-text a{
@@ -44,54 +34,34 @@
       padding-top: 62px;
       padding-left: 32px;
       text-decoration: none;
-      
 }
 
 .sale-button a{
       cursor: pointer;
       text-align: center;
-
 }
 
 .sale-item{
       background-color: white;
       padding: 12px 8px;
-      position:relative;
-      border-radius: 8px;
-
 }
 
 .sale-item-name{
       width: 168px; 
       height: 30px; 
       color: #0C0C0C; 
-      font-size: 15px; 
-      font-weight: 300;
-}
-
-.sale-item-price{
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      align-items: end;
-      padding-top: 15px;
+      font-size: 15px;
 }
 
 .sale-item-price-old{
       color: #717171;
-       font-size: 15px; 
-        font-weight: 400; 
-        text-decoration: line-through;
 }
 
 .sale-item-price-new{
       color: #0C0C0C; 
-      font-size: 16px; 
-      font-weight: 300;
 }
 
 .sale-item-discount{
-      padding-left: 3px;
       width: 35px;
       background: #FDDBC9; 
       border-radius: 8px;
@@ -100,16 +70,10 @@
       overflow: hidden;
       color: #F45E0C; 
       font-size: 14px; 
-      font-weight: 300; 
-      position: absolute;
       top: 10px;
       left: 2px;
 }
 
 .arrows{
-      position: absolute;
-      right: 0;
-      bottom: 0;
-      padding: 8px;
       cursor: pointer;
 }

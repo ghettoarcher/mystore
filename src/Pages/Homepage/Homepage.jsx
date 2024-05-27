@@ -4,7 +4,6 @@ import Categories from '../../components/categories/Categories';
 import Sale from '../../components/sale/Sale';
 import NewProducts from '../../components/newProducts/NewProducts';
 import HotDeals from '../../components/hotdeals/HotDeals';
-import Bestsellers from '../../components/bestsellers/BestSellers';
 import TopBrands from '../../components/topbrands/TopBrands';
 import Advertisement from '../../components/advertisement/Advertisement';
 import Blogs from '../../components/blogs/Blogs';
@@ -21,14 +20,88 @@ function Homepage() {
     {name: 'Gaming',img:'src/img/categories/gaming.svg', id: 5}, 
     {name: 'Smartwatches',img:'src/img/categories/smartwatch.svg', id: 6}, 
   ]
+  const bestsellersData = [
+    {
+          id:1,
+            img: '/src/img/bestsellers/razer.svg',
+            name:'Iphone 14 promax 256GB',
+            price:'$930.00',
+            rating:'4.9',  
+        },
+        { 
+              id:2,
+              img: '/src/img/bestsellers/razer.svg',
+              name:'Iphone 14 promax 256GB',
+              price:'$930.00',
+              rating:'4.9',  
+          },
+          {
+              id:3,
+              img: '/src/img/bestsellers/laptop.svg',
+              name:'Iphone 14 promax 256GB',
+              price:'$930.00',
+              rating:'4.9',  
+          },
+          {
+              id:4,
+              img: '/src/img/bestsellers/airpods.svg',
+              name:'Iphone 14 promax 256GB',
+              price:'$930.00',
+              rating:'4.9',  
+          },
+          {
+                id:5,
+                img: '/src/img/bestsellers/airpods.svg',
+                name:'Iphone 14 promax 256GB',
+                price:'$930.00',
+                rating:'4.9',  
+            },
+  ]
+  const newproductsData = [
+      {
+        id:1,
+          img: '/src/img/newproduct/macbook.png',
+          name:'Iphone 14 promax 256GB',
+          price:'$930.00',
+          rating:'4.9',  
+      },
+      { 
+            id:2,
+            img: '/src/img/newproduct/macbook.png',
+            name:'Iphone 14 promax 256GB',
+            price:'$930.00',
+            rating:'4.9',  
+        },
+        {
+            id:3,
+            img: '/src/img/newproduct/macbook.png',
+            name:'Iphone 14 promax 256GB',
+            price:'$930.00',
+            rating:'4.9',  
+        },
+        {
+            id:4,
+            img: '/src/img/newproduct/macbook.png',
+            name:'Iphone 14 promax 256GB',
+            price:'$930.00',
+            rating:'4.9',  
+        },
+        {
+            id:5,
+            img: '/src/img/newproduct/macbook.png',
+            name:'Iphone 14 promax 256GB',
+            price:'$930.00',
+            rating:'4.9',  
+        },
+  ]
   return (
     <>
     <MainProduct/>
-    <Categories data={categoriesItemsList}/>
+    <Categories data={categoriesItemsList} />
     <Sale/>
-    <NewProducts/>
+    <NewProducts data={bestsellersData} title={'New Products'}/>
     <HotDeals/>
-    <Bestsellers/>
+    <NewProducts data={newproductsData} title={'Best Sellers'}/>
     <TopBrands/>
     <Advertisement/>
     <Blogs/>

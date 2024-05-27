@@ -1,20 +1,14 @@
 
 .main__header{
       color: #042352; 
-      font-size: 64px; 
-       font-weight: 600;
-}
- 
-.main-product-content{
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
+      font-weight: 600;
+      font-size: 64px;
 }
 
 .main__subtitle{
       color: #042352; 
       font-size: 32px; 
-       font-weight: 500;
+      font-weight: 500;
 
 }
 .main__subtitle span{
@@ -23,15 +17,7 @@
 .main__button{
       width: 288px;
       height: 56px;
-      text-align: center;
-      display: block;
       background: #F45E0C; 
-      border-radius: 8px;
-      border: none;
-      display: flex;
-      justify-content: center;
-      align-items: center; 
-      row-gap: 8px; 
 
 }
 .main__button a{

@@ -5,11 +5,11 @@ export default function MainProduct (){
       return(
             <section className="mainProduct">
                   <div className="container">
-                        <div className="main-product-content">
-                              <div className="main-title__wrapper">
+                        <div className="main-product-content d-flex flex-row justify-content-space-between">
+                              <div className="main-title__wrapper d-flex flex-column justify-content-around">
                                     <h1 className="main__header">Tech Heim</h1>
-                                    <h3 className="main__subtitle">"Join the <span>digital revolution</span></h3>
-                                    <div className="main__button"><a href="">Explore more</a></div>
+                                    <h3 className="main__subtitle">"Join the <span>digital revolution"</span></h3>
+                                    <div className="main__button fs-6 fw-normal rounded-3 d-flex justify-content-center align-items-center b-none text-center"><a href="">Explore more</a></div>
                               </div>
                         <img className="main-img" src="/src/img/main/main-product.svg" alt="" />
                         </div>

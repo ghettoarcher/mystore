@@ -41,20 +41,20 @@ export default function Sale(){
       return(
             <div className="sale">
                   <div className="container">
-                  <div className="sale-wrapper" >
+                  <div className="sale-wrapper position-relative d-flex flex-row justify-content-between align-items-around " >
                   <div className="sale-text">
                         <div className="sale-title"><a href="">Products On Sale</a></div>
                         <div className="sale-subtitle"><a href="">Shop Now!</a></div>
                         <div className="sale-button"><a href="">View all</a></div>
                   </div>
-                  <div className="sale-items">
+                  <div className="sale-items d-flex flex-row px-5 align-items-center gap-4 rounded-2 ">
                         <SaleItems data = {saleData}/>
                   </div>
                   <div className="slider">
                         <div className="arrow-left"><img src="/src/icons/arrow-cirle-left.png" alt="" /></div>
                         <div className="arrow-right"><img src="/src/icon/arrow-circle-right.png" alt="" /></div>
                   </div>
-                  <div className="arrows">
+                  <div className="arrows position-absolute end-0 bottom-0 p-2">
                         <img src="src/icons/sale/arrow-circle-left.svg" alt="" />
                         <img src="src/icons/sale/arrow-circle-right.svg" alt="" />
                   </div>

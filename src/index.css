@@ -1,14 +1,13 @@
-@import url(./normalize.css);
-@import url(./components/header/header.css);
-@import url(./components/mainProduct/mainProduct.css);
-@import url(./components/categories/categories.css);
-@import url(./components/sale/sale.css);
-@import url(./components/newProducts/new-products.css);
+@import url('./normalize.css');
+@import url('./components/header/header.css');
+@import url('./components/mainProduct/mainProduct.css');
+@import url('./components/categories/categories.css');
+@import url('./components/sale/sale.css');
+@import url('./components/newProducts/new-products.css');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 @import url('./components/title/title.css');
 @import url('./components/countdown/countdown.css');
 @import url('./components/hotdeals/hotdeals.css');
-@import url('./components/topbrands/topbrands.css');
 @import url('./components/advertisement/advertisement.css');
 @import url('./components/blogs/blogs.css');
 @import url('./components/services/services.css');
@@ -18,11 +17,12 @@
 @import url('./components/header/userMenu.css');
 @import url('./components/header/SearchMenu/search-menu.css');
 @import url('./components/path/path.css');
-@import url('./Pages/Account/Account.css');
 @import url('./components/AccountSettings/account-settings.css');
 @import url('./components/AccountSettings/PersonalData/personal-data.css');
 @import url('./components/AccountSettings/EditField/edit-field.css');
 @import url('./components/AccountSettings/Payments/payments.css');
+@import url('./components/buynow/buynow.css');
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;

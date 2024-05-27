@@ -1,24 +1,6 @@
-.hotdeals{
-      margin-bottom: 48px;
-}
-
-.hotdeals-content{
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-}
-.hotdeals-content .buynow {
-      margin-right: 0; /* Убираем column-gap только у последнего элемента */
-}
-
 .presale-info{
-      position: relative;
       padding-right: 66px;
-      display: flex;
-    flex-direction: column;
-      row-gap: 24px;
-    padding-top: 44px;
-    padding-left: 12px;
+      padding-left: 12px;
 }
 .dots{
       position: absolute;
@@ -28,8 +10,12 @@
 .circle1{
       position: absolute;
       left: -50px;
-
 }
+.btn:hover{
+  opacity: 1 !important;
+  background-color: #0056b3;
+}
+
 .circle2{
       position: absolute;
       right: 10px;
@@ -41,119 +27,39 @@
       bottom: -30px;
 }
 
-.presale-title-wrapper{
-      display: flex;
-      flex-direction: column;
-      padding: 24px;
-      row-gap: 60px;
-      position: relative;
-}
-.presale-title{
-      margin-left: 24px;
-       font-size: 24px;
-      color: white;  
-      font-weight: 500; 
-}
 .presale-title span{
       color: #0C0C0C;    
 }
+
 .presale-subtitle{
-     text-align: center; 
      color: #0C0C0C;
       font-size: 20px;
-       font-weight: 500; 
 }
 
 .presale-description{
-
       color: #2D2D2D;
-      font-size: 16px;
-      font-weight: 300; 
       line-height: 24px;
 }
 
 .presale{
-
-      background: linear-gradient(287deg, #B0E9C9 0%, #1FB6CF 48%, #1975B9 100%);
-      border-radius: 8px;
-      display: flex;
-      flex-direction:row;    
+      background: linear-gradient(287deg, #B0E9C9 0%, #1FB6CF 48%, #1975B9 100%); 
 }
 
 .presale-text{
       width: 250px;
 }
+.ellipse{
+      position: absolute;
+      bottom: 0px;
+      z-index: 0;
+    }
+.btn:hover{
+      opacity: 1;
+}
 
 .button{
       margin: 0 auto;
-      width: 120px; 
-      height: 35px; 
-      padding: 8px 16px 8px 16px;
       background: #0C68F4;
-      border-radius: 8px; 
-      text-align: center; 
       color: white; 
-      font-size: 16px; 
-      font-weight: 400; 
-      display: flex;
-      align-items: center;
-      justify-content: center;
       z-index: 1;
-      
-}
-.buynow{
-      position: relative;
-      width: 444px;
-      background-color: #015690;
-      border-radius: 8px;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-}
-.buynow-title{
-      text-align: center;
-      color: #fcc870;
-      margin-top: 32px;
-      font-size: 24px;
-      z-index: 1;
-}
-.buynow-button{
-      margin-left: 67px;
-}
-.buynow-content-wrapper{
-      display: flex;
-      flex-direction: row;
-}
-.buy-now-img{
-      position: absolute;
-      bottom: 100px;
-      align-self: flex-end;
-      margin-right: 10px;  
-      max-width: 210px;
-      height: 169px;
-      z-index: 1;
-      
-}
-
-.ellipse{
-  position: absolute;
-  bottom: 0px;
-  z-index: 0;
-}
-
-.buynow-text{
-      color: #005690;
-      font-size: 20px;
-      font-weight: 500;
-      margin-left: 44px;
-      margin-top: 25px;
-      font-size: 20px;
-      z-index: 1;
-}
-
-.buynow-nav{
-      display: flex;
-      flex-direction: column;
-      row-gap: 60px;
-      margin-bottom: 36px;
 }

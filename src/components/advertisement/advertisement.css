@@ -1,53 +1,25 @@
 .advertisement-content{
-      border-radius: 10px;
       background-color: #223949;
-      padding-bottom: 41px;
-      text-align: center;
-      display: flex;
-      flex-direction: row;
-      justify-content: space-around;
-      
 }
 .advertisement-info{
-      margin-top:128px;
       margin-left: 64px;
       position: relative;
-      
-}
-.advertisement-img{
-      margin-top: 41px;
-      
 }
 .advertisement-title{
       color: white; 
       font-size: 44px; 
       font-weight: 500; 
-
 }
 
 .advertisement-subtitle{
       color: white; 
-      font-size: 24px; 
-      font-weight: 300; 
 }
 
 .advertisement-button a{
-      text-decoration: none;
       margin-top: 32px;
       width: 68px; 
       height: 35px;
-      padding-left: 16px; 
-      padding-right: 16px; 
-      padding-top: 8px; 
-      padding-bottom: 8px; 
       background: #FF6951;
-      border-radius: 8px;
-      justify-content: center; 
-      align-items: center; 
-      display: inline-flex;
-      text-align: center; 
       color: #223949; 
-      font-size: 16px; 
-      font-weight: 400; 
 
 }

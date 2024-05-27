@@ -1,43 +1,10 @@
 
-
-.header-nav{
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      align-items: center;
-    
-}
-.header-hamburger-btn{
-      display: none;
-}
-
-header{
-      padding-top: 18px;  
-      z-index: 100;
-      border-bottom: 1px solid blue;
-}
-.nav{
-      column-gap: 48px;
-      row-gap:24px;
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-      list-style-type: none;
-}     
 /* MOBILE VERSION SEARCH*/
 .search-field{
-      display: none;
-      padding: 0 16px;
       margin-top: 12px;
-      margin-bottom: 24px;
-      background-color: #ededed;
-      border-radius: 5px;
-      
 }
 .search-field input{
-      border:none;
       background: #ededed;
-
 }
 .search-field input:focus{
       outline: none;
@@ -53,13 +20,7 @@ header{
       text-decoration: none;
       color: #0c0c0c;
 }
-.menu{
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      align-items: center;
-      column-gap: 15px;
-}
+
 
 @media screen and (max-width: 768px) {
       .nav {
