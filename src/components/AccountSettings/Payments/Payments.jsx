@@ -9,18 +9,17 @@ const Payments = () => {
           <h3>Cards</h3>
           <p>Manage payment methods</p>   
           <div className="edit-field-wrapper nowrap">
-            <div className="div">
+            <div className="edit-field-item">
               <EditField title={'Full name'}  placeholder={'Credit or Debit card'} /> 
               <img src={visaIcon} alt="" />
               <img src={mastercardIcon} alt="" />
               <img src={americanexpressIcon} alt="" />
-              </div>
-          <div className="div">
+            </div>
+          <div className="edit-field-item">
             <EditField title={'Full name'}  placeholder={'Credit or Debit card'} />
             <img src={paypalIcon} alt="" />
           </div> 
-          <EditField title={'Phone number'} placeholder={'Paypal'}/>
-          <h3>Instalments</h3>
+          <h3 className='pt-4'>Instalments</h3>
           <div className='wrapper'><p className='blue'>Manage your instalments</p><img src="/src/icons/account/arrow-right.svg" alt="arrow" /></div>
           </div> 
 
