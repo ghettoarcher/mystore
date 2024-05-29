@@ -36,6 +36,8 @@
 
 .keywords_most_searched__items{
       row-gap: 32px;
+      flex-direction: column;
+      display: flex;
 }
 .keywords_most_searched__item{
       font-size: 18px;
