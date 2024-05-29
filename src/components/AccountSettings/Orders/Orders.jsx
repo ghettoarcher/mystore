@@ -1,8 +1,9 @@
+import AccountSettingsTitle from "../AccountSettingsTitle";
+
 const Orders = () => {
       return (
-        <div>
-          <h2>Orders</h2>
-          {/* Ваш контент для Orders */}
+        <div className="orders">
+            <AccountSettingsTitle title={'Orders History'} subtitle={'Track, return or purchase items'}/>
         </div>
       );
     };

@@ -5,12 +5,11 @@ import homeIcon from '../../../icons/account/home.svg';
 import directIcon from '../../../icons/account/direct.svg';
 import keyIcon from '../../../icons/account/key.svg';
 import signpostIcon from '../../../icons/account/signpost.svg';
-
+import  AccountSettingsTitle from '../AccountSettingsTitle';
 const PersonalData = () => {
   return (
     <div className="personal-data">
-        <h3>Identification</h3>
-        <p>Verify your identity</p>
+        <AccountSettingsTitle title={'Identification'} subtitle={'Verify your identity'}/>
         <div className="edit-field-wrapper">
           <EditField
             title={'Full name'}
