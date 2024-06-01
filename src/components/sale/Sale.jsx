@@ -42,7 +42,7 @@ export default function Sale(){
             <div className="sale">
                   <div className="container">
                   <div className="sale-wrapper position-relative d-flex flex-row justify-content-between align-items-around " >
-                  <div className="sale-text">
+                  <div className="sale-text d-flex flex-column justify-content-evenly">
                         <div className="sale-title"><a href="">Products On Sale</a></div>
                         <div className="sale-subtitle"><a href="">Shop Now!</a></div>
                         <div className="sale-button"><a href="">View all</a></div>

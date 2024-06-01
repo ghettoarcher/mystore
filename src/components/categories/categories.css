@@ -1,11 +1,5 @@
 .categories-item{
-      max-width: 184px;
-      background: white;
       box-shadow: -2px 2px 15px -1px rgba(113, 113, 113, 0.12);
-}
-
-.categories-item-img img{
-      padding: 0px 18px;
 }
 
 .categories-item-name a{

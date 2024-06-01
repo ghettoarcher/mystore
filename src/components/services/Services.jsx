@@ -1,26 +1,27 @@
 export default function Services(){
       return(
-            <section className="services">
-                  <div className="container">
-                        <div className="services-content d-flex flex-row justify-content-between flex-wrap">
-                              <div className="services-item">
-                                    <div className="services-icon"><img src="src/icons/services/tech-icon.svg" alt="" /></div>
-                                    <div className="services-text">Latest and Greatest Tech</div>
-                              </div>
-                              <div className="services-item">
-                                    <div className="services-icon"><img src="src/icons/services/guarantee-icon.svg" alt="" /></div>
-                                    <div className="services-text">Guarantee</div>
-                              </div>
-                              <div className="services-item">
-                                    <div className="services-icon"><img src="src/icons/services/shipping-icon.svg" alt="" /></div>
-                                    <div className="services-text">Free Shipping over 1000$</div>
-                              </div>
-                              <div className="services-item">
-                                    <div className="services-icon"><img src="src/icons/services/support-icon.svg" alt="" /></div>
-                                    <div className="services-text">24/7 Support     </div>
-                              </div>
-                        </div>
+          <section className="services">
+              <div className="container">
+                  <div className="services-content row justify-content-between">
+                      <div className="services-item col-lg-3 col-sm-12 mb-3">
+                          <div className="services-icon"><img src="src/icons/services/tech-icon.svg" alt="" /></div>
+                          <div className="services-text">Latest and Greatest Tech</div>
+                      </div>
+                      <div className="services-item col-lg-3 col-sm-12 mb-3">
+                          <div className="services-icon"><img src="src/icons/services/guarantee-icon.svg" alt="" /></div>
+                          <div className="services-text">Guarantee</div>
+                      </div>
+                      <div className="services-item col-lg-3 col-sm-12 mb-3">
+                          <div className="services-icon"><img src="src/icons/services/shipping-icon.svg" alt="" /></div>
+                          <div className="services-text">Free Shipping over 1000$</div>
+                      </div>
+                      <div className="services-item col-lg-3 col-sm-12 mb-3">
+                          <div className="services-icon"><img src="src/icons/services/support-icon.svg" alt="" /></div>
+                          <div className="services-text">24/7 Support</div>
+                      </div>
                   </div>
-            </section>
+              </div>
+          </section>
       );
-}
+  }
+  
