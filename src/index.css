@@ -12,7 +12,7 @@
 @import url('./components/blogs/blogs.css');
 @import url('./components/services/services.css');
 @import url('./components/footer/footer.css');
-@import url('./responsive.css');
+/* @import url('./responsive.css'); */
 @import url('./components/header/ProductsMenu/products-menu.css');
 @import url('./components/header/userMenu.css');
 @import url('./components/header/SearchMenu/search-menu.css');
@@ -22,7 +22,6 @@
 @import url('./components/AccountSettings/EditField/edit-field.css');
 @import url('./components/AccountSettings/Payments/payments.css');
 @import url('./components/buynow/buynow.css');
-
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;

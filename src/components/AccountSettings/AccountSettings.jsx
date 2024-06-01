@@ -6,13 +6,13 @@ const AccountSettings = () => {
     <div className="account-settings">
       <div className="account-settings-content">
         <AccountSettingsItem text="Adnan Al-Ezari" img="src/icons/account/account-icon.svg" />
-        <Link to="/account/personal-data">
+        <Link className='link' to="/account/personal-data">
           <AccountSettingsItem text="Personal Data" img="src/icons/account/user-edit.svg" />
         </Link>
-        <Link to="/account/payments">
+        <Link className='link' to="/account/payments">
           <AccountSettingsItem text="Payments & Instalments" img="src/icons/account/dollar-circle.svg" />
         </Link>
-        <Link to="/account/orders">
+        <Link className='link' to="/account/orders">
           <AccountSettingsItem text="Orders" img="src/icons/account/bag.svg" />
         </Link>
         <AccountSettingsItem text="Wish list" img="src/icons/account/heart.svg" />

@@ -5,7 +5,7 @@ export default function MainProduct (){
       return(
             <section className="mainProduct">
                   <div className="container">
-                        <div className="main-product-content d-flex flex-row justify-content-space-between">
+                        <div className="main-product-content d-flex flex-row justify-content-between">
                               <div className="main-title__wrapper d-flex flex-column justify-content-around">
                                     <h1 className="main__header">Tech Heim</h1>
                                     <h3 className="main__subtitle">"Join the <span>digital revolution"</span></h3>
