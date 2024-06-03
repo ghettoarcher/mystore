@@ -53,7 +53,7 @@ export default function Header() {
                     <span></span><span></span><span></span>
                 </button>
                 <div className="logo"><Link to="/"><img src="/src/icons/header/logo.svg" alt=""/></Link></div>
-                <ul className="nav col d-flex justify-content-center me-4 gap-5 fs-5 fw-light ">
+                <ul className="nav col d-flex justify-content-center me-4 gap-5 fs-5 fw-light border-0  ">
                     <li><Link to="/">Home</Link></li>
                     <li><a href="" onClick={(e) => {e.preventDefault(); toggleProductsMenu();}}>Products</a></li>
                     <li><a href="">Blog</a></li>

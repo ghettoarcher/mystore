@@ -1,0 +1,32 @@
+.nav-link {
+      color: grey;
+      display: flex;
+      align-items: center;
+      position: relative;
+      padding: 10px 15px;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+    .nav-link.active {
+      color: blue !important;
+    }
+    .nav-link .badge {
+      margin-left: 4px;
+      background-color: lightgrey; /* Светлый цвет по умолчанию */
+    }
+    .nav-link.active .badge {
+      background-color: blue;
+      color: white;
+    }
+    .nav {
+      border-bottom: 1px solid #e0e0e0;
+      position: relative;
+    }
+    .underline {
+      position: absolute;
+      bottom: 0;
+      height: 2px;
+      background-color: blue;
+      transition: transform 0.3s ease, width 0.3s ease;
+    }
+    

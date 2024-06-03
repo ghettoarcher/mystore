@@ -22,6 +22,7 @@
 @import url('./components/AccountSettings/EditField/edit-field.css');
 @import url('./components/AccountSettings/Payments/payments.css');
 @import url('./components/buynow/buynow.css');
+@import url('./components/AccountSettings/Orders/orders.css');
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
