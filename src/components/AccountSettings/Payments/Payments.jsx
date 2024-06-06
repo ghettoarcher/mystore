@@ -1,9 +1,9 @@
 import EditField from '../EditField/EditField'
-import visaIcon from '../../../icons/footer/visa.svg'
-import mastercardIcon from '../../../icons/footer/mastercard.svg'
-import americanexpressIcon from '../../../icons/footer/american-express.svg'
-import paypalIcon from '../../../icons/footer/paypal.svg'
-import AccountSettingsTitle from '../AccountSettingsTitle';
+import visaIcon from '../../../assets/icons/visa.svg'
+import mastercardIcon from '../../../assets/icons/mastercard.svg'
+import americanexpressIcon from '../../../assets/icons/american-express.svg'
+import paypalIcon from '../../../assets/icons/paypal.svg'
+import AccountSettingsTitle from '../AccountSettingsTitle'
 const Payments = () => {
   return (
     <div className="personal-data">

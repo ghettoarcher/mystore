@@ -1,4 +1,4 @@
-import editIcon from '../../../icons/account/edit.svg';
+import editIcon from '../../../assets/icons/edit.svg';
 
 const EditField = ({title,icon,placeholder}) => {
       return(

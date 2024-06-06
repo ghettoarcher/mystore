@@ -52,7 +52,7 @@ export default function Header() {
                 <button className="header-hamburger-btn d-none" id="burger">
                     <span></span><span></span><span></span>
                 </button>
-                <div className="logo"><Link to="/"><img src="/src/icons/header/logo.svg" alt=""/></Link></div>
+                <div className="logo"><Link to="/"><img src="/src/assets/icons/logo.svg" alt=""/></Link></div>
                 <ul className="nav col d-flex justify-content-center me-4 gap-5 fs-5 fw-light border-0  ">
                     <li><Link to="/">Home</Link></li>
                     <li><a href="" onClick={(e) => {e.preventDefault(); toggleProductsMenu();}}>Products</a></li>
@@ -61,10 +61,10 @@ export default function Header() {
                     <li><a href="">Contact Us</a></li>
                 </ul>
                 <div className="menu d-flex gap-3">
-                    <a href="#"><img onClick ={toggleSearchMenu}className="menu-icon search" src="/src/icons/header/search.svg" alt=""/></a>
+                    <a href="#"><img onClick ={toggleSearchMenu}className="menu-icon search" src="/src/assets/icons/search.svg" alt=""/></a>
 
-                    <a href="#"><img className="menu-icon" src="/src/icons/header/cart.svg" alt=""/></a>
-                    <a href="#"><img  onClick={toggleUserMenu}className="menu-icon" src="/src/icons/header/user.svg" alt=""/></a>
+                    <a href="#"><img className="menu-icon" src="/src/assets/icons/bag.svg" alt=""/></a>
+                    <a href="#"><img  onClick={toggleUserMenu}className="menu-icon" src="/src/assets/icons/user-black.svg" alt=""/></a>
                 </div>
                 {userIsOpen &&(
                     <UserMenu/>
@@ -73,7 +73,7 @@ export default function Header() {
             {searchIsOpen && <SearchMenu/>}
 
             <div className="search-field d-none px-3 mb-4 rounded-2 bg-light">
-                    <input className='b-none'type="text" placeholder='What we can help you to find?'/> <img src="src/icons/header/search.svg" alt="" />
+                    <input className='b-none'type="text" placeholder='What we can help you to find?'/> <img src="/src/assets/icons/search-normal.svg" alt="" />
                 </div>
                 {productsIsOpen && (
                     <ProductsMenu/>

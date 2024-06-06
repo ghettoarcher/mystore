@@ -50,13 +50,9 @@ export default function Sale(){
                   <div className="sale-items d-flex flex-row px-5 align-items-center gap-4 rounded-2 ">
                         <SaleItems data = {saleData}/>
                   </div>
-                  <div className="slider">
-                        <div className="arrow-left"><img src="/src/icons/arrow-cirle-left.png" alt="" /></div>
-                        <div className="arrow-right"><img src="/src/icon/arrow-circle-right.png" alt="" /></div>
-                  </div>
                   <div className="arrows position-absolute end-0 bottom-0 p-2">
-                        <img src="src/icons/sale/arrow-circle-left.svg" alt="" />
-                        <img src="src/icons/sale/arrow-circle-right.svg" alt="" />
+                        <img src="src/assets/icons/arrow-circle-left.svg" alt="" />
+                        <img src="src/assets/icons/arrow-circle-right.svg" alt="" />
                   </div>
 
             </div>

@@ -7,9 +7,9 @@ const SearchMenu = () =>{
                   <div className="search-menu-input__wrapper d-flex flex-row justify-content-between">
                         <div className="search-menu__input d-flex flex-row justify-content-between align-items-center rounded-2 p-3">
                               <input type="text" placeholder='What we can help you to find?' />
-                              <img src="src/icons/header/search.svg" alt="search" />
+                              <img src="src/assets/icons/search.svg" alt="search" />
                         </div>
-                        <img className="search-menu__cancel" src="src/icons/header/close-circle.svg" alt="cancel" />
+                        <img className="search-menu__cancel" src="src/assets/icons/close-circle.svg" alt="cancel" />
 
 
                   </div>

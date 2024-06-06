@@ -1,10 +1,10 @@
 import EditField from "../EditField/EditField";
-import userIcon from '../../../icons/header/user.svg';
-import callIcon from '../../../icons/account/call.svg';
-import homeIcon from '../../../icons/account/home.svg';
-import directIcon from '../../../icons/account/direct.svg';
-import keyIcon from '../../../icons/account/key.svg';
-import signpostIcon from '../../../icons/account/signpost.svg';
+import userIcon from '../../../assets/icons/user-black.svg';
+import callIcon from '../../../assets/icons/call-black.svg';
+import homeIcon from '../../../assets/icons/home.svg';
+import mailIcon from '../../../assets/icons/mail-black.svg';
+import keyIcon from '../../../assets/icons/key.svg';
+import signpostIcon from '../../../assets/icons/signpost.svg';
 import  AccountSettingsTitle from '../AccountSettingsTitle';
 const PersonalData = () => {
   return (
@@ -28,7 +28,7 @@ const PersonalData = () => {
           />
           <EditField
             title={'E-mail Address'}
-            icon={directIcon}
+            icon={mailIcon}
             placeholder={'example@gmail.com'}
           />
           <EditField
