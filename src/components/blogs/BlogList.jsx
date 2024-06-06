@@ -11,7 +11,7 @@ export default function BlogList({data}){
                               <div className="blog-item-title"><a href=""></a>{item.title}</div>
                               <div className="blog-item-descr fw-light mt-2">{item.description}</div>
                               <div className="blog-item-date d-flex flex-row align-items-center date">
-                                    <img src="/src/icons/blogs/calendar.svg" alt="date" className="blog-item-date-icon" />
+                                    <img src="/src/assets/icons/calendar.svg" alt="date" className="blog-item-date-icon" />
                                     <div className="blog-item-date-text fw-light ">{item.date}</div>
                               </div>
                         </div>

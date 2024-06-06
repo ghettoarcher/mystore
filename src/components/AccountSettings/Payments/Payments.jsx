@@ -20,7 +20,7 @@ const Payments = () => {
             <img src={paypalIcon} alt="" />
           </div> 
           <h3 className='pt-4'>Instalments</h3>
-          <div className='wrapper'><p className='blue'>Manage your instalments</p><img src="/src/icons/account/arrow-right.svg" alt="arrow" /></div>
+          <div className='wrapper'><p className='blue'>Manage your instalments</p><img src="/src/assets/icons/arrow-right.svg" alt="arrow" /></div>
           </div> 
 
 
