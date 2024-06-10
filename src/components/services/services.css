@@ -13,6 +13,7 @@
       flex-direction: row;
       align-items: center;
       column-gap: 16px;
+      justify-content: center;
 }
 
 .services-text{
