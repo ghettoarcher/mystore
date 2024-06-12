@@ -11,8 +11,9 @@
       font-weight: 500;
 
 }
-.main__subtitle span{
-      color: #F45E0C; 
+.main__subtitle h3 span{
+      color: var(--primary-color);
+      color: red;
 }
 .main__button{
       width: 288px;
@@ -23,4 +24,8 @@
 .main__button a{
       text-decoration: none;
       color: white;
+}
+
+.secondary-color{
+      color: var(--secondary-color);
 }
