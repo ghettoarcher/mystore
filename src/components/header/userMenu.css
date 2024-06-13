@@ -26,7 +26,7 @@
 
 .userMenu__name{
   font-size: 18px;
-  color: #0c68f4;
+  color: var(--primary-color);
 }
 
 .userMenu__email{

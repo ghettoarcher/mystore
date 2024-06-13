@@ -18,7 +18,7 @@
 .main__button{
       width: 288px;
       height: 56px;
-      background: #F45E0C; 
+      background: var(--secondary-color); 
 
 }
 .main__button a{
