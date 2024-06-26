@@ -1,7 +1,7 @@
 export default function MainBlog(){
       return(
       <div className="main-blog-content d-flex flex-column rounded-2">
-            <img src="src/img/blogs/image.png" alt="" className="blog-item-img main" />
+            <img src="src/assets/images/image.png" alt="" className="blog-item-img main" />
             <div className="main-blog-info-wrapper d-flex flex-column pt-2 px-3 pb-2">
             <div className="main-blog-info d-flex flex-row align-items-center justify-content-between mt-2">
             <div className="blog-item-date d-flex">

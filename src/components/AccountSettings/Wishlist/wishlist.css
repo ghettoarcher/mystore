@@ -1,0 +1,10 @@
+.wishlist{
+      padding-top: 30px;
+}
+.addtocart{
+      gap: 3px;
+}
+
+.addtocart p {
+      color: var(--primary-color);
+}

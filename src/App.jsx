@@ -5,7 +5,7 @@ import Layout from './components/Layout';
 import PersonalData from './components/AccountSettings/PersonalData/PersonalData';
 import Payments from './components/AccountSettings/Payments/Payments';
 import Orders from './components/AccountSettings/Orders/Orders';
-
+import Wishlist from './components/AccountSettings/Wishlist/Wishlist';
 function App() {
   return (
     <Routes>
@@ -15,6 +15,7 @@ function App() {
           <Route path='personal-data' element={<PersonalData />} />
           <Route path='payments' element={<Payments />} />
           <Route path='orders' element={<Orders />} />
+          <Route path= 'wishlist' element={<Wishlist/>}/>
         </Route>
       </Route>
     </Routes>

@@ -4,7 +4,7 @@ export default function Sale(){
       const saleData = [
             {
                   discount: '-50%',
-                  img: '/src/img/sale/logitech-g502.svg',
+                  img: '/src/assets/images/logitech-g502.svg',
                   name: 'Logitech G502 Gaming Mouse',
                   oldPrice: '$49.00',
                   newPrice: '$34.00',
@@ -12,7 +12,7 @@ export default function Sale(){
             },
             {
                   discount: '-50%',
-                  img: '/src/img/sale/NPET.svg',
+                  img: '/src/assets/images/NPET.svg',
                   name: 'Logitech G502 Gaming Mouse',
                   oldPrice: '$38.00',
                   newPrice: '$19.00',
@@ -20,7 +20,7 @@ export default function Sale(){
             },
             {
                   discount: '-50%',
-                  img: '/src/img/sale/apple-watch7.svg',
+                  img: '/src/assets/images/apple-watch7.svg',
                   name: 'Logitech G502 Gaming Mouse',
                   oldPrice: '$38.00',
                   newPrice: '$19.00',
@@ -28,7 +28,7 @@ export default function Sale(){
             },
             {
                   discount: '-50%',
-                  img: '/src/img/sale/macbookairm2.svg',
+                  img: '/src/assets/images/macbookairm2.svg',
                   name: 'Logitech G502 Gaming Mouse',
                   oldPrice: '$38.00',
                   newPrice: '$19.00',

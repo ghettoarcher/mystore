@@ -11,7 +11,7 @@ export default function MainProduct (){
                                     <h3 className="main__subtitle">&quot; Join the <span className="secondary-color">digital revolution &quot;</span></h3>
                                     <div className="main__button fs-6 fw-normal rounded-3 d-flex justify-content-center align-items-center b-none text-center"><a href="">Explore more</a></div>
                               </div>
-                        <img className="main-img" src="/src/img/main/main-product.svg" alt="" />
+                        <img className="main-img" src="/src/assets/images/main-product.svg" alt="" />
                         </div>
 
                   

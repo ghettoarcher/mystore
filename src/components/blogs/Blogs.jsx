@@ -5,14 +5,14 @@ export default function Blogs(){
       const blogData = [
             {     
                   id:1,
-                  img: '/src/img/blog/blog-image1.png',
+                  img: '/src/assets/images/blog-image1.png',
                   title: '8 Things You Probably Didn’t Know About Headphones',
                   description: 'Owning a headphone could mean a different thing for different people. For some, it act as a fashion statement. It’s easy to spot these people, the headphone are a...',
                   date: 'March , 28 , 2023',
             },
             {
                   id:2,
-                  img: '/src/img/blog/blog-image2.png',
+                  img: '/src/assets/images/blog-image2.png',
                   title: 'Analyzing the August 17th Bitcoin Price Drop',
                   description: 'On August 17th at 9:30PM UTC, Bitcoin’s price dropped more than 8% in a 10-minute window, to a two-month low of under $26k. This pulled...',
                   date: 'August , 17 , 2023',
@@ -20,7 +20,7 @@ export default function Blogs(){
       ]
       const mainBlogData = [
             {
-                  img:'src/img/blogs/image.png',
+                  img:'src/assets/images/image.png',
                   id:1,
                   date:'August , 8 , 2023',
                   title:'Meta Platforms plans to release free',

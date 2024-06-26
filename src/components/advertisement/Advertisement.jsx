@@ -8,7 +8,7 @@ export default function Advertisement(){
                                     <div className="advertisement-subtitle fw-light fs-4">Various designs and brands</div>
                                     <div className="advertisement-button"><a className='text-decoration-none rounded-2 d-inline-flex justify-content-center align-items-center' href="">View</a></div>
                               </div>
-                              <div className="advertisement-img mt-5"><img src="/src/img/advertisement/smartwatches.svg" alt="" /></div>
+                              <div className="advertisement-img mt-5"><img src="/src/assets/images/smartwatches.svg" alt="" /></div>
                         </div>
                   </div>
             </section>
