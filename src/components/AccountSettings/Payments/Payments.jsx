@@ -10,13 +10,13 @@ const Payments = () => {
           <AccountSettingsTitle title={'Cards'} subtitle={'manage payment methods'}/>  
           <div className="edit-field-wrapper nowrap">
             <div className="edit-field-item">
-              <EditField title={'Full name'}  placeholder={'Credit or Debit card'} /> 
+              <EditField title={'Full name'}  placeholder={'Credit or Debit card'} rightIcon= {'/src/assets/icons/edit.svg'} /> 
               <img src={visaIcon} alt="" />
               <img src={mastercardIcon} alt="" />
               <img src={americanexpressIcon} alt="" />
             </div>
           <div className="edit-field-item">
-            <EditField title={'Full name'}  placeholder={'Credit or Debit card'} />
+            <EditField title={'Full name'}  placeholder={'Credit or Debit card'}  rightIcon= {'/src/assets/icons/edit.svg'}/>
             <img src={paypalIcon} alt="" />
           </div> 
           <h3 className='pt-4'>Instalments</h3>

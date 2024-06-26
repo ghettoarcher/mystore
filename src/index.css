@@ -25,6 +25,7 @@
 @import url('./components/AccountSettings/Orders/orders.css');
 @import url('./components/AccountSettings/Wishlist/wishlist.css');
 @import url('./components/AccountSettings/Wishlist/wishlistCards.css');
+@import url('./components/AccountSettings/Notification/notification.css');
 
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;

@@ -20,9 +20,8 @@ const wishlistData = [
 const Wishlist = () => {
       return(
             <>
-            <div className="orders">
-                  <AccountSettingsTitle title={'Wish list'} subtitle={'See your favorites list here'}/>
-            </div>
+
+            <AccountSettingsTitle title={'Wish list'} subtitle={'See your favorites list here'}/>
             <section className="wishlist d-flex flex-row">
 
             <WishlistCard data= {wishlistData}/>

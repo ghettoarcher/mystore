@@ -1,0 +1,11 @@
+.notification-item-subtitle{
+      width: 260px;
+}
+
+.notification-items-wrapper{
+      padding-top: 40px;
+}
+
+.toggle-icon{
+      cursor: pointer;
+}
