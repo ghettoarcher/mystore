@@ -55,7 +55,7 @@ export default function Header() {
                 <ul className="nav col d-flex justify-content-center me-4 gap-5 fs-5 fw-light border-0  ">
                     <li><Link to="/">Home</Link></li>
                     <li><a href="" onClick={(e) => {e.preventDefault(); toggleProductsMenu();}}>Products</a></li>
-                    <li><a href="">Blog</a></li>
+                    <li><Link to={'blog'}>Blog</Link></li>
                     <li><a href="">FAQ</a></li>
                     <li><a href="">Contact Us</a></li>
                 </ul>

@@ -11,11 +11,13 @@ import Security from './components/AccountSettings/Security/Security';
 import Notification from './components/AccountSettings/Notification/Notification';
 import Contacts from './components/AccountSettings/Contacts/Contacts';
 import AboutUs from './components/AboutUs/AboutUs';
+import Blog from './Pages/Blog/Blog';
 function App() {
   return (
     <Routes>
       <Route path='/' element={<Layout />}>
         <Route index element={<Homepage />} />
+        <Route path='blog' element={<Blog/>}/>
         <Route path='account' element={<Account />}>
           <Route path='personal-data' element={<PersonalData />} />
           <Route path='payments' element={<Payments />} />
