@@ -2,6 +2,7 @@ import PayMethods from '../PayMethods/PayMethods';
 import Copyright from './Copyright/Copyright';
 import Socials from './Socials/Socials';
 import SignUpField from './SignUpField/SignUpField';
+import { Link } from 'react-router-dom';
 export default function Footer(){
 
       return(
@@ -10,7 +11,8 @@ export default function Footer(){
                         <div className="footer-content d-flex flex-row justify-content-between">
                               <div className="footer-column">
                                     <div className="footer-column-item semi-bold"><a href="">Company</a></div>
-                                    <div className="footer-column-item"><a href="">About us</a></div>
+
+                                    <div className="footer-column-item"><a href=""><Link to="about-us">About us</Link></a></div>
                                     <div className="footer-column-item"><a href="">Blog</a></div>
                                     <div className="footer-column-item"><a href="">Returns</a></div>
                                     <div className="footer-column-item"><a href="">Order status </a></div>

@@ -1,12 +1,12 @@
 import {Link} from 'react-router-dom';
-const Path = () => {
+const Path = ({secondPath,thirdPath}) => {
       return(
             <div className="path">
                   <div className="container">
                         <div className="path-content">
                         <Link className='link' to={'/'}>Home</Link> <img src="/src/assets/icons/path-arrow.svg" alt="" />
-                  <p>Account</p> <img src="/src/assets/icons/path-arrow.svg" alt="" />
-                  <p>Personal Data</p>
+                  <p>{secondPath}</p> <img src="/src/assets/icons/path-arrow.svg" alt="" />
+                  <p>{thirdPath}</p>
                         </div>
 
                   </div>

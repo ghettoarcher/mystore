@@ -4,7 +4,7 @@ import AccountSettings from '../../components/AccountSettings/AccountSettings';
 const Account = () => {
   return (
     <>
-      <Path />
+      <Path secondPath={'Account'}/>
       <AccountSettings />
     </>
   );

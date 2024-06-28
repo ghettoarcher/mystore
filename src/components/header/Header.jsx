@@ -2,7 +2,6 @@ import UserMenu from './UserMenu';
 import ProductsMenu from './ProductsMenu/ProductsMenu';
 import { useEffect,useState } from 'react';
 import SearchMenu from './SearchMenu/SearchMenu';
-
 import {Link} from 'react-router-dom';
 
 export default function Header() {

@@ -10,7 +10,7 @@ import Discounts from './components/AccountSettings/Discounts/Discounts';
 import Security from './components/AccountSettings/Security/Security';
 import Notification from './components/AccountSettings/Notification/Notification';
 import Contacts from './components/AccountSettings/Contacts/Contacts';
-
+import AboutUs from './components/AboutUs/AboutUs';
 function App() {
   return (
     <Routes>
@@ -26,6 +26,7 @@ function App() {
           <Route path= 'notification' element={<Notification/>}/>
           <Route path= 'contacts' element={<Contacts/>}/>
         </Route>
+        <Route path='about-us' element={<AboutUs/>}/>
       </Route>
     </Routes>
   );
