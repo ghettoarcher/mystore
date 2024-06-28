@@ -30,18 +30,26 @@ const UserMenu = () => {
                 <span className='userMenu__email fw-300'>adnan30062000@gmail.com</span>
               </Link>
             </li>
-            <li>
-              <img src="/src/assets/icons/bag.svg" alt="Orders" className='products-menu-icon'/>
-              <a href="#">Orders</a>
-            </li>
-            <li>
-              <img src="/src/assets/icons/heart.svg" alt="Wishlist" className='products-menu-icon'/>
-              <a href="#">Wishlist</a>
-            </li>
-            <li>
-              <img src="/src/assets/icons/dollar-circle.svg" alt="Payments" className='products-menu-icon'/>
-              <a href="#">Payments</a>
-            </li>
+
+            <Link to='account/orders'>
+              <li>
+                <img src="/src/assets/icons/bag.svg" alt="Orders" className='products-menu-icon'/>
+                <a>Orders</a>
+              </li>
+            </Link>
+            <Link to='account/wishlist'>
+              <li>
+                <img src="/src/assets/icons/heart.svg" alt="Wishlist" className='products-menu-icon'/>
+                <a href="#">Wishlist</a>
+              </li>
+            </Link>
+            <Link to="account/payments">
+                <li>
+                  <img src="/src/assets/icons/dollar-circle.svg" alt="Payments" className='products-menu-icon'/>
+                  <a href="#">Payments</a>
+                </li>
+            </Link>
+
             <li>
               <img src="/src/assets/icons/logout.svg" alt="Logout" className='products-menu-icon'/>
               <a href="#">Logout</a>
