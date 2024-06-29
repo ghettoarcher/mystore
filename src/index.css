@@ -27,7 +27,8 @@
 @import url('./components/AccountSettings/Wishlist/wishlistCards.css');
 @import url('./components/AccountSettings/Notification/notification.css');
 @import url('./components/AboutUs/aboutUs.css');
-
+@import url('./components/blogs/BlogHorizontal/BlogHorizontal.css');
+@import url('./Pages/Blog/blog.css');
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;

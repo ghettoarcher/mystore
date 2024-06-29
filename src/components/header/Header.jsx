@@ -54,15 +54,15 @@ export default function Header() {
                 <div className="logo"><Link to="/"><img src="/src/assets/icons/logo.svg" alt=""/></Link></div>
                 <ul className="nav col d-flex justify-content-center me-4 gap-5 fs-5 fw-light border-0  ">
                     <li><Link to="/">Home</Link></li>
-                    <li><a href="" onClick={(e) => {e.preventDefault(); toggleProductsMenu();}}>Products</a></li>
+                    <li><a onClick={(e) => {e.preventDefault(); toggleProductsMenu();}}>Products</a></li>
                     <li><Link to={'blog'}>Blog</Link></li>
-                    <li><a href="">FAQ</a></li>
-                    <li><a href="">Contact Us</a></li>
+                    <li><a>FAQ</a></li>
+                    <li><a>Contact Us</a></li>
                 </ul>
                 <div className="menu d-flex gap-3">
-                    <a href="#"><img onClick ={toggleSearchMenu}className="menu-icon search" src="/src/assets/icons/search.svg" alt=""/></a>
+                    <a><img onClick ={toggleSearchMenu}className="menu-icon search" src="/src/assets/icons/search.svg" alt=""/></a>
 
-                    <a href="#"><img className="menu-icon" src="/src/assets/icons/bag.svg" alt=""/></a>
+                    <a ><img className="menu-icon" src="/src/assets/icons/bag.svg" alt=""/></a>
                     <a href="#"><img  onClick={toggleUserMenu}className="menu-icon" src="/src/assets/icons/user-black.svg" alt=""/></a>
                 </div>
                 {userIsOpen &&(

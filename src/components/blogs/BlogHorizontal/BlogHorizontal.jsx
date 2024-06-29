@@ -1,19 +1,19 @@
-const BlogHorizontal = () => {
+const BlogHorizontal = ({title,subtitle,readtime,date,img}) => {
       return(
             <>
-            <div className="card mb-3" style="max-width: 540px;">
-                  <div className="row no-gutters">
-                  <div className="col-md-4">
-                        <img src="..." className="card-img" alt="..."/>
+            <div className="blog-horizontal d-flex flex-col">
+                  <img src={img} alt="" />
+                  <div className="blog-horizontal-content d-flex flex-column">
+                        <div className="blog-horizontal-title">{title}</div>
+                        <div className="blog-horizontal-subtitle">{subtitle} </div>
+                        <div className="blog-info d-flex flex-row justify-content-between ">
+                        <div className="blog-publish-date d-flex flex-row align-items-end">
+                              <img src="/src/assets/icons/calendar.svg" alt="" />
+                              <span>{date}</span>
+                        </div>
                   </div>
-            <div className="col-md-8">
-                  <div className="card-body">
-                  <h5 className="card-title">Card title</h5>
-                  <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
                   </div>
-            </div>
-                  </div>
+                  
             </div>
             </>
       )

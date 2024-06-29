@@ -1,0 +1,10 @@
+.blog-horizontal-content{
+      padding-top: 30px;
+      padding-bottom: 30px;
+      padding-left:16px;
+}
+
+.blog-horizontal{
+      border-radius: 8px;
+      box-shadow: -2px 2px 15px -1px rgba(113, 113, 113, 0.12);
+}
