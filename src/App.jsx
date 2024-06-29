@@ -12,6 +12,7 @@ import Notification from './components/AccountSettings/Notification/Notification
 import Contacts from './components/AccountSettings/Contacts/Contacts';
 import AboutUs from './components/AboutUs/AboutUs';
 import Blog from './Pages/Blog/Blog';
+import ContactUs from './Pages/ContactUs/ContactUs';
 function App() {
   return (
     <Routes>
@@ -29,6 +30,7 @@ function App() {
           <Route path= 'contacts' element={<Contacts/>}/>
         </Route>
         <Route path='about-us' element={<AboutUs/>}/>
+        <Route path='contact-us' element={<ContactUs/>}/>
       </Route>
     </Routes>
   );

@@ -24,7 +24,7 @@ export default function Footer(){
                                     <div className="footer-column-item"><a href="">FAQ</a></div>
                               </div>
                               <div className="footer-column">
-                                    <div className="footer-column-item semi-bold">Contact us</div>
+                                    <div className="footer-column-item semi-bold"><Link to={'contact-us'}>Contact us</Link></div>
                                     <div className="footer-column-item"><img className= "footer-column-icon" src="/src/assets/icons/location.svg" alt=""/> <a href="#">123 Main Street, Anytown,USA</a></div>
                                     <div className="footer-column-item"><img className= "footer-column-icon" src="/src/assets/icons/call-white.svg" alt="" /><a href="#">+1 (555) 123-4567</a> </div>
                                     <div className="footer-column-item"><img className= "footer-column-icon" src="/src/assets/icons/mail-white.svg" alt="" /><a href="#">TechHeimSupport@gmail.com</a></div>
