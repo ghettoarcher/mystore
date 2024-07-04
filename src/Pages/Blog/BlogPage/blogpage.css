@@ -1,0 +1,9 @@
+.blog-text{
+      font-weight: 300;
+      font-size: 20px;
+}
+
+.blog-text span{
+      font-size: 16px;
+      font-weight: 500;
+}

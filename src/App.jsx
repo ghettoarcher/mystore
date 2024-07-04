@@ -13,24 +13,27 @@ import Contacts from './components/AccountSettings/Contacts/Contacts';
 import AboutUs from './components/AboutUs/AboutUs';
 import Blog from './Pages/Blog/Blog';
 import ContactUs from './Pages/ContactUs/ContactUs';
+import BlogPage from './Pages/Blog/BlogPage/BlogPage';
+
 function App() {
   return (
     <Routes>
       <Route path='/' element={<Layout />}>
         <Route index element={<Homepage />} />
-        <Route path='blog' element={<Blog/>}/>
+        <Route path='blog' element={<Blog />} />
+        <Route path='blog/blog-page' element={<BlogPage />} />
         <Route path='account' element={<Account />}>
           <Route path='personal-data' element={<PersonalData />} />
           <Route path='payments' element={<Payments />} />
           <Route path='orders' element={<Orders />} />
-          <Route path= 'wishlist' element={<Wishlist/>}/>
-          <Route path= 'discounts' element={<Discounts/>}/>
-          <Route path= 'security' element={<Security/>}/>
-          <Route path= 'notification' element={<Notification/>}/>
-          <Route path= 'contacts' element={<Contacts/>}/>
+          <Route path='wishlist' element={<Wishlist />} />
+          <Route path='discounts' element={<Discounts />} />
+          <Route path='security' element={<Security />} />
+          <Route path='notification' element={<Notification />} />
+          <Route path='contacts' element={<Contacts />} />
         </Route>
-        <Route path='about-us' element={<AboutUs/>}/>
-        <Route path='contact-us' element={<ContactUs/>}/>
+        <Route path='about-us' element={<AboutUs />} />
+        <Route path='contact-us' element={<ContactUs />} />
       </Route>
     </Routes>
   );

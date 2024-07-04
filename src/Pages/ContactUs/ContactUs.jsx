@@ -25,7 +25,7 @@ const ContactUs = () => {
                   <div className='message-wrapper d-flex flex-row align-items-center justify-content-evenly'>
                   <div className="message-text d-flex flex-column gap-3">
                         <div className="message-title fw-medium">Message us</div>
-                        <div className="message-subtitle fw-light">We're here to assist you every step of the way. Whether you have a question, need technical support, or simply want to share your feedback, our dedicated team is ready to listen and provide prompt assistance.</div>
+                        <div className="message-subtitle fw-light">We re here to assist you every step of the way. Whether you have a question, need technical support, or simply want to share your feedback, our dedicated team is ready to listen and provide prompt assistance.</div>
                   </div>
                   <div className="message-form d-flex flex-column gap-3 justify-content-end"> 
                   <input className='input' type="text" placeholder=' * Your name'/> 
