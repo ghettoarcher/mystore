@@ -1,6 +1,6 @@
 export default function BlogVertical({title,subtitle,readtime,date,img}){
       return(
-            <div className="blog-vertical card rounded-2">
+            <div className="blog-vertical rounded-2">
                   <div className="card-img-top">
                         <img src={img} alt="" />
                   </div>

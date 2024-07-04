@@ -1,0 +1,60 @@
+.contact-item{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+}
+
+.contact-item img{
+      width: 48px;
+      height: 48px;
+}
+.contact-title{
+      font-size: 20px;
+}
+.contact-descr{
+      font-size: 16px;
+      font-weight: 300;
+      color: #717171;
+}
+
+.message-text{
+      max-width: 380px;
+}
+
+.input{
+      height: 48px;
+      border-radius: 8px;
+      border: 1px solid grey;
+      width: 342px;
+}
+
+#message{
+      height: 190px;
+}
+#message::placeholder{
+      padding-left: 24px;
+
+}
+.button{
+      width: 184px;
+      height: 48px;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+
+.message-wrapper{
+      margin-top: 96px;
+      margin-bottom: 56px;
+}
+
+.message-subtitle{
+      color: #717171;
+      font-size: 20px;
+}
+
+.message-title{
+      font-size: 24px;
+}

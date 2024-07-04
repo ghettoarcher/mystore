@@ -1,3 +1,9 @@
+.blog-vertical{
+      border-radius: 8px;
+      box-shadow: -2px 2px 15px -1px rgba(113, 113, 113, 0.12);
+
+}
+
 .blog-info{
       font-size: 12px;
       color: #9E9E9E;
