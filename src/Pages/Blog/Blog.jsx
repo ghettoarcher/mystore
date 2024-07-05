@@ -1,9 +1,7 @@
 import Path from '../../components/path/Path'
 import BlogVertical  from '../../components/blogs/BlogVertical';
-import BlogHorizontal from '../../components/blogs/BlogHorizontal/BlogHorizontal';
 import {Link} from 'react-router-dom';
-
-
+import Recent from '../../components/blogs/recent/Recent';
 const Blog = () => {
       return(
         <>
@@ -11,7 +9,7 @@ const Blog = () => {
         <section className="blog ">
           <div className="container d-flex flex-row">
             <div className="blog-content">
-              <div className="blogs-wrapper d-flex flex-row flex-wrap gap-4">
+              <div className="blogs-wrapper d-flex flex-row flex-wrap gap-4 mb-5">
                 <Link to={'blog-page'}>
                   <BlogVertical
                     img={'/src/assets/images/blog-img1.svg'}
@@ -48,8 +46,19 @@ const Blog = () => {
                     readtime={'5 min read'}
                   />
                 </Link>
+
               </div>
+              <Recent size={'padding-large'} height={'height-large'} fontSize={'fs-4'}/>
             </div>
+            <div className="videos d-flex flex-column">
+              <div className="h4">Videos</div>
+                  <img src="src/assets/images/Videos card.svg" alt="" />
+                  <img src="src/assets/images/Videos card-1.svg" alt="" />
+                  <img src="src/assets/images/Videos card-2.svg" alt="" />
+                  <img src="src/assets/images/Videos card-3.svg" alt="" />
+                  <img src="src/assets/images/Videos card-4.svg" alt="" />
+                  <img src="src/assets/images/Videos card-5.svg" alt="" />
+                </div>
           </div>
         </section>
       </>

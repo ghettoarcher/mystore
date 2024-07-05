@@ -12,8 +12,8 @@ export default function BlogVertical({title,subtitle,readtime,date,img}){
                                     </div>
                                     <div className="blog-readtime d-flex flex-row align-items-end"><img src="/src/assets/icons/timer.svg" alt="" />{readtime}</div>
                               </div>
-                        <div className="blog-title">{title}</div>
-                        <div className="blog-subtitle">{subtitle}</div>
+                        <div className="blog-title multiline-ellipsis">{title}</div>
+                        <div className="blog-subtitle multiline-ellipsis">{subtitle}</div>
                   </div>
 
             </div>
