@@ -1,0 +1,49 @@
+.comment-item{
+      background:rgba(113, 113, 113,0.1);
+      padding: 16px;
+      border: solid 1px #ededed;
+      border-radius: 8px;
+}
+.comment-post-date{
+      font-size: 16px;
+      color: #9e9e9e;
+}
+
+.comment-name{
+      font-size: 20px;
+}
+
+.comment-rating{
+      font-size: 12px;
+      color: white;
+      background-color: var(--primary-color);
+      border-radius: 6px;
+      padding: 8px;
+}
+.comment-rating img svg{
+      fill: white;
+}
+
+
+.comment-text{
+      margin-top: 12px;
+      font-size: 16px;
+      font-weight: 300;
+}
+
+.comment-show-more{
+      font-size: 14px;
+      color: var(--primary-color);
+      cursor: pointer;
+}
+.comment-likes{
+      color: #717171;
+}
+.like{
+      cursor: pointer;
+}
+.dislike{
+      cursor: pointer;
+}
+
+

@@ -1,0 +1,12 @@
+.tag-item{
+      padding: 14px 20px 14px 20px;
+      color: var(--primary-color);
+      border-radius: 8px;
+      border: solid 2px var(--primary-color);
+
+}
+
+.tag-items{
+      row-gap: 16px;
+      column-gap: 8px;
+}
