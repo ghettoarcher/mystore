@@ -27,6 +27,15 @@ const BlogPage = () => {
                                     cinema-like experience. This is achieved by using advanced algorithms to manipulate audio signals, creating the illusion that sound is coming
                                     from various directions. <br /><span>5-Wired vs. Wireless</span> <br />While wireless headphones are incredibly convenient, wired headphones can still offer superior audio
                                           quality due to the lack of data compression and transmission loss associated with wireless technology.
+                                          <div className="blog-feedback d-flex flex-row justify-content-end gap-2">
+                                                <div className="blog-comment">
+                                                      <img src="/src/assets/icons/edit-black.svg" alt="comments" /> 3 Comments
+                                                </div>
+                                                <div className="blog-like"><img src="/src/assets/icons/like-black.svg" alt="like" />2 Likes</div>
+                                                
+                                          
+                                          
+                                          </div>
                               </div>
                               <div className='comments'>
                               <h5>Comments</h5>
