@@ -5,13 +5,6 @@
       box-shadow: -2px 2px 15px -1px rgba(113, 113, 113, 0.12);
 }
 
-.multiline-ellipsis {
-      display: -webkit-box;        /* Включаем режим флексбокса */
-      -webkit-box-orient: vertical;/* Вертикальная ориентация */
-      overflow: hidden;            /* Скрываем текст, выходящий за пределы блока */
-      text-overflow: ellipsis;     /* Заменяем скрытый текст троеточием */
-      -webkit-line-clamp: 3;       /* Ограничиваем количество строк */
-    }
 .padding-small{
       padding: 23px 0px 23px 16px;
 }

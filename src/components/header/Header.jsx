@@ -56,7 +56,7 @@ export default function Header() {
                     <li><Link to="/">Home</Link></li>
                     <li><a onClick={(e) => {e.preventDefault(); toggleProductsMenu();}}>Products</a></li>
                     <li><Link to={'blog'}>Blog</Link></li>
-                    <li><a>FAQ</a></li>
+                    <li><Link to={'faq'}>FAQ</Link></li>
                     <li><Link to={'contact-us'}>Contact Us</Link></li>
                 </ul>
                 <div className="menu d-flex gap-3">

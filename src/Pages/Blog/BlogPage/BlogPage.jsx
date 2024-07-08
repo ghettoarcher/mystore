@@ -56,7 +56,7 @@ const BlogPage = () => {
                   </div>
                         </div>
                         <div className="aside d-flex flex-column">
-                        <Recent size={'padding-small'} height={'height-small'} fontSize={'fs-5'}/>
+                        <Recent size={'padding-small'} height={'height-small'} fontSize={'fs-5'} subtitleSize={'fs-6'} />
                         <div className="tags">
                         <h5 className='mt-5'>Tags</h5>
                         <div className="tag-items d-flex flex-row flex-wrap mt-3">

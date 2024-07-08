@@ -1,0 +1,34 @@
+.faq-img{
+      display: block;
+      margin: 0 auto;
+}
+.faq-content{
+      margin-top: 56px;
+}
+
+.faq-questions p{
+      font-size: 24px;
+      padding-bottom: 24px;
+      padding-top: 24px;
+}
+
+.faq-sections {
+      font-size: 16px;
+      font-weight: 300;
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      gap:8px;
+
+}
+
+.faq-item{
+      border-bottom: 1px solid #b4b4b4;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      cursor: pointer;
+}
+.faq-item:last-child{
+      border: none;
+}

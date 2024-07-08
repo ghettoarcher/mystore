@@ -14,6 +14,7 @@ import AboutUs from './components/AboutUs/AboutUs';
 import Blog from './Pages/Blog/Blog';
 import ContactUs from './Pages/ContactUs/ContactUs';
 import BlogPage from './Pages/Blog/BlogPage/BlogPage';
+import FAQ from './Pages/FAQ/FAQ';
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
         </Route>
         <Route path='about-us' element={<AboutUs />} />
         <Route path='contact-us' element={<ContactUs />} />
+        <Route path='faq' element={<FAQ/>}/>
       </Route>
     </Routes>
   );

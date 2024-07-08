@@ -48,7 +48,7 @@ const Blog = () => {
                 </Link>
 
               </div>
-              <Recent size={'padding-large'} height={'height-large'} fontSize={'fs-4'}/>
+              <Recent size={'padding-large'} height={'height-large'} fontSize={'fs-4'} subtitleSize={'fs-5'}/>
             </div>
             <div className="videos d-flex flex-column">
               <div className="h4">Videos</div>
