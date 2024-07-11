@@ -34,25 +34,25 @@ const UserMenu = () => {
             <Link to='account/orders'>
               <li>
                 <img src="/src/assets/icons/bag.svg" alt="Orders" className='products-menu-icon'/>
-                <a>Orders</a>
+                Orders
               </li>
             </Link>
             <Link to='account/wishlist'>
               <li>
                 <img src="/src/assets/icons/heart.svg" alt="Wishlist" className='products-menu-icon'/>
-                <a href="#">Wishlist</a>
+                Wishlist
               </li>
             </Link>
             <Link to="account/payments">
                 <li>
                   <img src="/src/assets/icons/dollar-circle.svg" alt="Payments" className='products-menu-icon'/>
-                  <a href="#">Payments</a>
+                  Payments
                 </li>
             </Link>
 
             <li>
               <img src="/src/assets/icons/logout.svg" alt="Logout" className='products-menu-icon'/>
-              <a href="#">Logout</a>
+              Logout
             </li>
           </ul>
         </div>

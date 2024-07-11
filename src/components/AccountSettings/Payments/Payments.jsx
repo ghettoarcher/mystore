@@ -4,6 +4,7 @@ import mastercardIcon from '../../../assets/icons/mastercard.svg'
 import americanexpressIcon from '../../../assets/icons/american-express.svg'
 import paypalIcon from '../../../assets/icons/paypal.svg'
 import AccountSettingsTitle from '../AccountSettingsTitle'
+import {Link} from 'react-router-dom';
 const Payments = () => {
   return (
     <div className="personal-data">
@@ -20,9 +21,8 @@ const Payments = () => {
             <img src={paypalIcon} alt="" />
           </div> 
           <h3 className='pt-4'>Instalments</h3>
-          <div className='wrapper'><p className='blue'>Manage your instalments</p><img src="/src/assets/icons/arrow-right.svg" alt="arrow" /></div>
+          <div className='wrapper'><Link to={'instalments'}><p className='blue'>Manage your instalments</p></Link><img src="/src/assets/icons/arrow-right.svg" alt="arrow" /></div>
           </div> 
-
 
 </div>
   );

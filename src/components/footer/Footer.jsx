@@ -12,7 +12,7 @@ export default function Footer(){
                               <div className="footer-column">
                                     <div className="footer-column-item semi-bold"><a href="">Company</a></div>
 
-                                    <div className="footer-column-item"><a href=""><Link to="about-us">About us</Link></a></div>
+                                    <div className="footer-column-item"><Link to="about-us">About us</Link></div>
                                     <div className="footer-column-item"><a href="">Blog</a></div>
                                     <div className="footer-column-item"><a href="">Returns</a></div>
                                     <div className="footer-column-item"><a href="">Order status </a></div>
@@ -21,7 +21,7 @@ export default function Footer(){
                                    <div className="footer-column-item semi-bold"><a href="">Info</a></div>
                                     <div className="footer-column-item"><a href="">How it works?</a></div>
                                     <div className="footer-column-item"><a href="">our promises</a></div>
-                                    <div className="footer-column-item"><a href="">FAQ</a></div>
+                                    <div className="footer-column-item"><Link to={'faq'}>FAQ</Link></div>
                               </div>
                               <div className="footer-column">
                                     <div className="footer-column-item semi-bold"><Link to={'contact-us'}>Contact us</Link></div>

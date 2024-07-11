@@ -54,7 +54,7 @@ export default function Header() {
                 <div className="logo"><Link to="/"><img src="/src/assets/icons/logo.svg" alt=""/></Link></div>
                 <ul className="nav col d-flex justify-content-center me-4 gap-5 fs-5 fw-light border-0  ">
                     <li><Link to="/">Home</Link></li>
-                    <li><a onClick={(e) => {e.preventDefault(); toggleProductsMenu();}}>Products</a></li>
+                    <li><Link onClick={(e) => {e.preventDefault(); toggleProductsMenu();}}>Products</Link></li>
                     <li><Link to={'blog'}>Blog</Link></li>
                     <li><Link to={'faq'}>FAQ</Link></li>
                     <li><Link to={'contact-us'}>Contact Us</Link></li>
