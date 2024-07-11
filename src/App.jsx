@@ -16,6 +16,7 @@ import ContactUs from './Pages/ContactUs/ContactUs';
 import BlogPage from './Pages/Blog/BlogPage/BlogPage';
 import FAQ from './Pages/FAQ/FAQ';
 import PaymentsInstalments from './components/AccountSettings/Instalments/PaymentsInstalments';
+import ProductPage from './Pages/ProductPage/ProductPage';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <Route path='/' element={<Layout />}>
         <Route index element={<Homepage />} />
         <Route path='blog' element={<Blog />} />
+        <Route path='productpage' element={<ProductPage/>}/>
         <Route path='blog/blog-page' element={<BlogPage />} />
         <Route path='account' element={<Account />}>
           <Route path='personal-data' element={<PersonalData />} />
