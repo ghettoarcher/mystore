@@ -86,13 +86,6 @@ function Homepage() {
             price:'$930.00',
             rating:'4.9',  
         },
-        {
-            id:5,
-            img: '/src/assets/images/RazerHeadphones.svg',
-            name:'Iphone 14 Pro Max 256GB',
-            price:'$930.00',
-            rating:'4.9',  
-        },
   ]
   return (
     <>
