@@ -3,6 +3,9 @@ import ProductInfo from '../../components/ProductInfo/ProductInfo';
 import Path from '../../components/path/Path';
 import ProductImages from '../../components/ProductImages/ProductImages';
 import NewProductsItems from '../../components/newProducts/NewProductsItems';
+import ProductFeedback from '../../components/ProductFeedback/ProductFeedback';
+import Comment from '../../components/Comment/Comment';
+
 const ProductPage = () => {
       const similarData = [
             {
@@ -28,7 +31,7 @@ const ProductPage = () => {
                   },
                   {
                       id:4,
-                      img: '/src/assets/images/Desktop/imagete.svg',
+                      img: '/src/assets/images/Desktop/image.svg',
                       name:'Iphone 14 Pro Max 256GB',
                       price:'$930.00',
                       rating:'4.9',  
@@ -79,6 +82,10 @@ const ProductPage = () => {
             <h5>Similar Products</h5>
             <NewProductsItems data={similarData}/>
            </div>
+            <div className='d-flex flex-row gap-3 mt-5'>
+            <ProductFeedback></ProductFeedback>
+            <Comment/>
+            </div>
             </div> 
             </>     
       )

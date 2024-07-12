@@ -1,0 +1,29 @@
+.feedback-content input{
+      height: 48px;
+
+}
+
+.feedback-content::placeholder{
+      font-size: 14px;
+}
+
+.comment-btn{
+      padding: 14px 0;
+      border-radius: 8px;
+      margin-top: 12px;
+}
+
+.product-feedback{
+      margin-top: 8px;
+}
+
+.feedback-item{
+      gap: 24px;
+}
+
+.feedback-name{
+      font-size: 12px;
+}
+.feedback-score{
+      font-size: 16px;
+}
