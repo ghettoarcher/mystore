@@ -35,7 +35,8 @@
 @import url('./components/Comment/comment.css');
 @import url('./components/Tag/tag.css');
 @import url('./Pages/FAQ/faq.css');
-@import url('./Pages/ProductPage/productpage.css');
+@import url('./components/ProductPrice/productprice.css');
+@import url('./components/ProductInfo/productInfo.css');
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;

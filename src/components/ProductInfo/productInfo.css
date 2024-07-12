@@ -1,0 +1,47 @@
+.vertical{
+      height: 25px;
+      width: 1px;
+}
+
+.product-info{
+      width: 343px;
+}
+.product-info p{
+      color: var(--primary-color);
+}
+
+.product-colors span{ 
+      margin-right: 40px;
+      color: #0c0c0c;
+}
+
+.product-colors{
+      gap:8px;
+      margin-top: 24px;
+}
+.product-title{
+      font-size: 20px;
+      font-weight: 500;
+}
+.product-availibilty{
+      margin-top: 24px;
+}
+.product-availibilty span{
+      margin-left: 4px;
+      color: #717171;
+}
+
+.description-item{
+      color: #717171;
+      font-size: 14px;
+      font-weight: 500;
+}
+.product-specs span{
+      color: #0c0c0c;
+      font-size: 14px;
+      font-weight: 500;
+}
+
+.product-description{
+      margin-top: 32px;
+}

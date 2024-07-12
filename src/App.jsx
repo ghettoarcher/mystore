@@ -24,7 +24,7 @@ function App() {
       <Route path='/' element={<Layout />}>
         <Route index element={<Homepage />} />
         <Route path='blog' element={<Blog />} />
-        <Route path='productpage' element={<ProductPage/>}/>
+        <Route path='product-page' element={<ProductPage/>}/>
         <Route path='blog/blog-page' element={<BlogPage />} />
         <Route path='account' element={<Account />}>
           <Route path='personal-data' element={<PersonalData />} />
