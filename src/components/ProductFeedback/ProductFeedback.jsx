@@ -15,12 +15,12 @@ const ProductFeedback = () => {
                               <div className="feedback-score">4.8</div>
                         </div>
                         <div className="feedback-item d-flex flex-row">
-                              <div className="feedback-name">Battery charge</div>
+                              <div className="feedback-name">Monitor</div>
                               <div className="feedback-scale"><img src="/src/assets/icons/scale.svg" alt="" /></div>
                               <div className="feedback-score">4.8</div>
                         </div>
                         <div className="feedback-item d-flex flex-row">
-                              <div className="feedback-name">Battery charge</div>
+                              <div className="feedback-name">Lightness</div>
                               <div className="feedback-scale"><img src="/src/assets/icons/scale.svg" alt="" /></div>
                               <div className="feedback-score">4.8</div>
                         </div>

@@ -45,6 +45,9 @@
 .product-description{
       margin-top: 32px;
 }
+.sold{
+      color: #717171;
+}
 
 
 
@@ -67,4 +70,15 @@
 
 .similar-products h5{
       margin-bottom: 32px;
+}
+
+
+/* reviews */
+
+.reviews{
+      margin-top: 48px;
+}
+
+.review-items{
+      margin-top: 32px;
 }

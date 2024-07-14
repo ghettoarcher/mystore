@@ -2,7 +2,7 @@
 
 const Comment = () => {
       return(
-            <div className="comment-item d-flex flex-column ">
+            <div className="comment-item d-flex flex-column mb-2 ">
                   <div className="comment-title d-flex flex-row justify-content-between">
                   <div className="comment-left d-flex flex-row gap-3 align-items-center">
                         <img src="/src/assets/images/user-img.svg" alt="user image"/>

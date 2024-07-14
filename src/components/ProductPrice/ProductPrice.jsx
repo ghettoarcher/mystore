@@ -1,4 +1,5 @@
 const ProductPrice = () => {
+      document.querySelectorAll('.instalments-month').forEach(e => e.addEventListener('click', () => document.querySelector('.instalments-month').style.color = 'red'))
       return(
             <div className="product-page d-flex flex-column justify-content-center align-items-start">
             <div className='d-flex flex-row justify-content'>

@@ -4,7 +4,7 @@ const ProductInfo = () => {
             <div className="product-title">MacBook Pro M2 MNEJ3 2022 LLA 13.3 inch</div>
             <div className='d-flex flex-row gap-2 mt-2'>
                   <img src="/src/assets/icons/star.svg" alt="" />4.9
-                  <div> sold 125</div>
+                  <div className="sold"> sold 125</div>
             </div>
             <div className="product-availibilty d-flex flex-row justify-content-between align-items-center">
                   <div><img src="/src/assets/icons/shop.svg" alt="In Stock" /><span>In Stock</span></div>

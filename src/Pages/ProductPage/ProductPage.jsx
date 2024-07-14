@@ -83,9 +83,26 @@ const ProductPage = () => {
             <NewProductsItems data={similarData}/>
            </div>
             <div className='d-flex flex-row gap-3 mt-5'>
-            <ProductFeedback></ProductFeedback>
-            <Comment/>
+                  <ProductFeedback></ProductFeedback>
+                  <div className='d-flex flex-column'>
+                        <Comment/>
+                        <Comment/>
+                        <Comment/>
+                  </div>
             </div>
+            <div className="similar-products">
+                  <h5>Frequently bought Products</h5>
+                  <NewProductsItems data={similarData}/>
+           </div>
+           <div className="reviews">
+            <h5>Reviews</h5>
+            <div className="review-items d-flex flex-row gap-4">
+                  <img src="/src/assets/images/review-img1.svg" alt="" />
+                  <img src="/src/assets/images/review-img2.svg" alt="" />
+                  <img src="/src/assets/images/review-img3.svg" alt="" />
+           </div>
+           </div>
+
             </div> 
             </>     
       )
